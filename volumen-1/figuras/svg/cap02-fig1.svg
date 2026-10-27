@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="380" viewBox="0 0 460 380">
+  <defs>
+    <style>
+      .eje { stroke:#4A4A4A; stroke-width:1.2; }
+      .og { stroke:#9E1B32; stroke-width:2.2; }
+      .om { stroke:#14315D; stroke-width:1.6; stroke-dasharray:5,4; }
+      .perp { stroke:#4A4A4A; stroke-width:1.1; stroke-dasharray:3,3; }
+      .angulo { fill:none; stroke:#9E1B32; stroke-width:1.1; }
+      .puntoAzul { fill:#14315D; }
+      .punto { fill:#9E1B32; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:17px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family: 'CMU Serif','Georgia',serif; font-size:17px; fill:#9E1B32; font-style:italic; }
+      .etiquetaGris { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#4A4A4A; font-style:italic; }
+    </style>
+  </defs>
+  <rect width="460" height="380" fill="white"/>
+
+  <!-- ejes -->
+  <line x1="70" y1="320" x2="430" y2="320" class="eje"/>
+  <text x="438" y="326" class="etiqueta">x</text>
+  <line x1="70" y1="320" x2="70" y2="30" class="eje"/>
+  <text x="54" y="24" class="etiqueta">y</text>
+  <text x="46" y="338" class="etiqueta">O</text>
+
+  <!-- linea OG (direccion del polarizador) -->
+  <line x1="70" y1="320" x2="381" y2="102" class="og"/>
+  <text x="388" y="96" class="etiquetaRoja">G</text>
+
+  <!-- punto M -->
+  <circle cx="260" cy="160" r="4" class="puntoAzul"/>
+  <text x="268" y="152" class="etiqueta">M</text>
+
+  <!-- OM -->
+  <line x1="70" y1="320" x2="260" y2="160" class="om"/>
+
+  <!-- M' pie de perpendicular sobre el eje x -->
+  <circle cx="260" cy="320" r="3.5" class="puntoAzul"/>
+  <text x="256" y="340" class="etiqueta">M'</text>
+  <line x1="260" y1="160" x2="260" y2="320" class="perp"/>
+
+  <!-- Q proyeccion de M sobre OG -->
+  <circle cx="272.6" cy="178.0" r="4" class="punto"/>
+  <text x="278" y="196" class="etiquetaRoja">Q</text>
+  <line x1="260" y1="160" x2="272.6" y2="178.0" class="perp"/>
+
+  <!-- angulo g en O -->
+  <path d="M 150,320 A 80,80 0 0 0 128,261" class="angulo"/>
+  <text x="140" y="300" class="etiquetaGris">g</text>
+</svg>
