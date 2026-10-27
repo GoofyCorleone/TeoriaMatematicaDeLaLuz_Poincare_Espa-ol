@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="300" viewBox="0 0 440 300">
+  <defs>
+    <style>
+      .esfera { fill:none; stroke:#14315D; stroke-width:2; }
+      .linea { stroke:#14315D; stroke-width:1.6; fill:none; }
+      .eje { stroke:#4A4A4A; stroke-width:1.2; }
+      .puntoAzul { fill:#14315D; }
+      .puntoRojo { fill:#9E1B32; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:17px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family: 'CMU Serif','Georgia',serif; font-size:17px; fill:#9E1B32; font-style:italic; }
+      .angulo { fill:none; stroke:#9E1B32; stroke-width:1.1; }
+    </style>
+  </defs>
+  <rect width="440" height="300" fill="white"/>
+
+  <!-- esfera S -->
+  <circle cx="150" cy="150" r="80" class="esfera"/>
+  <text x="75" y="95" class="etiqueta">S</text>
+
+  <!-- centro O -->
+  <circle cx="150" cy="150" r="3.5" class="puntoAzul"/>
+  <text x="140" y="168" class="etiqueta">O</text>
+
+  <!-- punto Q, polo cercano, sobre la esfera a la derecha -->
+  <circle cx="230" cy="150" r="3.5" class="puntoAzul"/>
+  <text x="235" y="146" class="etiqueta">Q</text>
+
+  <!-- punto M sobre la esfera, arriba -->
+  <circle cx="202" cy="81" r="3.5" class="puntoAzul"/>
+  <text x="195" y="70" class="etiqueta">M</text>
+
+  <!-- punto P, exterior, a la derecha -->
+  <circle cx="380" cy="150" r="4" class="puntoRojo"/>
+  <text x="390" y="146" class="etiquetaRoja">P</text>
+
+  <!-- radios y lineas -->
+  <line x1="150" y1="150" x2="202" y2="81" class="linea"/>
+  <line x1="150" y1="150" x2="230" y2="150" class="eje"/>
+  <line x1="202" y1="81" x2="380" y2="150" class="linea"/>
+  <line x1="230" y1="150" x2="380" y2="150" class="eje"/>
+
+  <!-- angulo theta en O -->
+  <path d="M 185,150 A 35,35 0 0 0 173,118" class="angulo"/>
+  <text x="178" y="138" class="etiquetaRoja">&#952;</text>
+
+  <!-- etiquetas a, b, r -->
+  <text x="185" y="168" class="etiqueta">a</text>
+  <text x="300" y="168" class="etiqueta">b</text>
+  <text x="295" y="105" class="etiqueta">r</text>
+
+</svg>

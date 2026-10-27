@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200">
+  <defs>
+    <style>
+      .curva { fill:none; stroke:#14315D; stroke-width:2; }
+      .tangente { stroke:#9E1B32; stroke-width:1.4; stroke-dasharray:5,4; }
+      .puntoAzul { fill:#14315D; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#14315D; font-style:italic; }
+    </style>
+  </defs>
+  <rect width="320" height="200" fill="white"/>
+
+  <!-- dos bucles (secciones de la espiral) con tangentes paralelas -->
+  <circle cx="100" cy="100" r="40" class="curva"/>
+  <circle cx="220" cy="100" r="40" class="curva"/>
+
+  <!-- recta tangente comun T1-T2 -->
+  <line x1="40" y1="60" x2="280" y2="60" class="tangente"/>
+
+  <circle cx="100" cy="60" r="4" class="puntoAzul"/>
+  <text x="80" y="48" class="etiqueta">M1</text>
+
+  <circle cx="220" cy="60" r="4" class="puntoAzul"/>
+  <text x="226" y="48" class="etiqueta">M2</text>
+
+  <text x="42" y="54" class="etiqueta">T1</text>
+  <text x="262" y="54" class="etiqueta">T2</text>
+</svg>

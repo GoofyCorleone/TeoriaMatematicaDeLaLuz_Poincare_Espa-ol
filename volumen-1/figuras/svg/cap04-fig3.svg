@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260">
+  <defs>
+    <style>
+      .linea { stroke:#14315D; stroke-width:1.8; fill:none; }
+      .puntolinea { stroke:#9E1B32; stroke-width:1.6; fill:none; stroke-dasharray:5,4; }
+      .puntoAzul { fill:#14315D; }
+      .puntoRojo { fill:#9E1B32; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:17px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family: 'CMU Serif','Georgia',serif; font-size:17px; fill:#9E1B32; font-style:italic; }
+      .angulo { fill:none; stroke:#9E1B32; stroke-width:1.1; }
+    </style>
+  </defs>
+  <rect width="400" height="260" fill="white"/>
+
+  <!-- recta AB (el borde de la pantalla, confundido con una recta cerca de Q) -->
+  <line x1="60" y1="190" x2="340" y2="80" class="linea"/>
+  <circle cx="60" cy="190" r="3.5" class="puntoAzul"/>
+  <text x="38" y="205" class="etiqueta">A</text>
+  <circle cx="340" cy="80" r="3.5" class="puntoAzul"/>
+  <text x="348" y="76" class="etiqueta">B</text>
+
+  <!-- punto M sobre AB -->
+  <circle cx="210" cy="129" r="4" class="puntoAzul"/>
+  <text x="205" y="118" class="etiqueta">M</text>
+
+  <!-- punto Q, fuera de la recta -->
+  <circle cx="230" cy="220" r="4" class="puntoRojo"/>
+  <text x="238" y="232" class="etiquetaRoja">Q</text>
+
+  <!-- pie de la perpendicular C -->
+  <circle cx="256" cy="140" r="3.5" class="puntoAzul"/>
+  <text x="263" y="138" class="etiqueta">C</text>
+
+  <!-- perpendicular Q-C -->
+  <line x1="230" y1="220" x2="256" y2="140" class="linea"/>
+
+  <!-- recta Q-M -->
+  <line x1="230" y1="220" x2="210" y2="129" class="puntolinea"/>
+
+  <!-- angulo phi en Q entre QM y QC -->
+  <path d="M 222,183 A 45,45 0 0 1 240,178" class="angulo"/>
+  <text x="222" y="196" class="etiquetaRoja">&#966;</text>
+
+</svg>

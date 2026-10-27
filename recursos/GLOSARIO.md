@@ -44,6 +44,17 @@ nota en contrario.
 | angle limite | ángulo límite | ángulo de incidencia a partir del cual se produce reflexión total (hoy también "ángulo crítico") |
 | longueur d'onde | longitud de onda | $\lambda=V\tau$ (cap. II, §52) |
 | lumière naturelle | luz natural | luz no polarizada |
+| écran | pantalla | obstáculo opaco que ocupa una porción de la esfera de onda (cap. IV, §83 en adelante) |
+| ombre géométrique | sombra geométrica | región sin iluminación según la óptica de rayos rectos, sin difracción (cap. IV, §89) |
+| pôle (d'un point) | polo (de un punto) | punto de la esfera $S$ más cercano al punto observado $P$; no confundir con polo en otro sentido (cap. IV, §93-94) |
+| intégrales de Fresnel | integrales de Fresnel | $\int\cos(\pi v^2/2)\,dv$, $\int\sin(\pi v^2/2)\,dv$ (cap. IV, §97) |
+| point asymptotique | punto asintótico | los puntos $A,A'$ a los que converge la espiral de Fresnel (cap. IV, §97-99) |
+| double couche (potentiel) | doble capa | par de superficies de densidad atrayente igual y de signo contrario, infinitamente próximas (cap. IV, §80) |
+| écrans complémentaires | pantallas complementarias | aquellas en que a los vacíos de una corresponden los llenos de la otra (cap. IV, §109, teorema de Babinet) |
+| réseau (de diffraction) | red (de difracción) | $n$ rendijas paralelas, igualmente espaciadas (cap. IV, §119) |
+| ouverture semblable | abertura semejante | misma forma, escalada por una razón $K$ (cap. IV, §107) |
+| angle de déviation | ángulo de desviación | ángulo $\delta$ entre $OP$ y la normal al plano de la abertura (cap. IV, §107) |
+| maximum principal / secondaire | máximo principal / secundario | en redes y puntos equidistantes: el máximo de intensidad $\propto n^2$ frente a los máximos menores entre dos de ellos (cap. IV, §118) |
 
 ## Convenciones de notación matemática
 

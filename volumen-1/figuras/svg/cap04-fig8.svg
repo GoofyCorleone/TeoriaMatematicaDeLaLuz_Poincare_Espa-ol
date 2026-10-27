@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="280" viewBox="0 0 320 280">
+  <defs>
+    <style>
+      .espiral { fill:none; stroke:#14315D; stroke-width:2.2; stroke-linejoin:round; stroke-linecap:round; }
+      .eje { stroke:#4A4A4A; stroke-width:1; }
+      .radio { stroke:#9E1B32; stroke-width:1.2; stroke-dasharray:4,4; }
+      .puntoAzul { fill:#14315D; }
+      .puntoRojo { fill:#9E1B32; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#9E1B32; font-style:italic; }
+    </style>
+  </defs>
+  <rect width="320" height="280" fill="white"/>
+
+  <line x1="10" y1="230" x2="300" y2="230" class="eje"/>
+  <line x1="60" y1="10" x2="60" y2="260" class="eje"/>
+  <text x="290" y="226" class="etiqueta">X</text>
+  <text x="66" y="22" class="etiqueta">Y</text>
+
+  <path class="espiral" d="M 60,230
+    C 100,215 135,198 143.7,219.0
+    C 155,248 185,170 192.6,155.5
+    C 200,140 150,95 135.7,111.4
+    C 122,127 160,165 143.0,171.6
+    C 130,176 132,128 137.8,124.7
+    C 143,122 168,138 150,143" />
+
+  <circle cx="60" cy="230" r="3" class="puntoAzul"/>
+  <text x="38" y="246" class="etiqueta">O</text>
+
+  <circle cx="146" cy="133" r="4" class="puntoRojo"/>
+  <text x="154" y="130" class="etiquetaRoja">A</text>
+
+  <circle cx="155" cy="220" r="4" class="puntoAzul"/>
+  <text x="161" y="218" class="etiqueta">M</text>
+
+  <circle cx="200" cy="255" r="4" class="puntoAzul"/>
+  <text x="206" y="260" class="etiqueta">P</text>
+
+  <line x1="146" y1="133" x2="200" y2="255" class="radio"/>
+  <line x1="146" y1="133" x2="155" y2="220" class="radio"/>
+</svg>
