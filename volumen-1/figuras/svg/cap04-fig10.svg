@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="260" viewBox="0 0 340 260">
+  <defs>
+    <style>
+      .linea { stroke:#14315D; stroke-width:1.4; }
+      .puntoAzul { fill:#14315D; }
+      .puntoRojo { fill:#9E1B32; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#9E1B32; font-style:italic; }
+    </style>
+  </defs>
+  <rect width="340" height="260" fill="white"/>
+
+  <!-- puntos R, M, O agrupados arriba -->
+  <circle cx="190" cy="60" r="3.5" class="puntoAzul"/>
+  <text x="178" y="48" class="etiqueta">R</text>
+
+  <circle cx="220" cy="60" r="3.5" class="puntoAzul"/>
+  <text x="222" y="48" class="etiqueta">M</text>
+
+  <circle cx="250" cy="60" r="3.5" class="puntoAzul"/>
+  <text x="256" y="48" class="etiqueta">O</text>
+
+  <!-- punto P abajo a la izquierda -->
+  <circle cx="90" cy="220" r="4" class="puntoRojo"/>
+  <text x="68" y="236" class="etiquetaRoja">P</text>
+
+  <!-- eje hacia Z -->
+  <line x1="250" y1="60" x2="320" y2="190" class="linea"/>
+  <text x="326" y="196" class="etiqueta">Z</text>
+
+  <!-- rayos de P a R, M, O -->
+  <line x1="90" y1="220" x2="190" y2="60" class="linea"/>
+  <line x1="90" y1="220" x2="220" y2="60" class="linea"/>
+  <line x1="90" y1="220" x2="250" y2="60" class="linea"/>
+</svg>

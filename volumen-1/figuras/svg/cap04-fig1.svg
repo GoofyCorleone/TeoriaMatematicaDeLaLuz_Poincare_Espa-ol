@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="300" viewBox="0 0 360 300">
+  <defs>
+    <style>
+      .linea { stroke:#14315D; stroke-width:1.8; fill:none; }
+      .puntolinea { stroke:#9E1B32; stroke-width:1.6; fill:none; stroke-dasharray:5,4; }
+      .puntoAzul { fill:#14315D; }
+      .puntoRojo { fill:#9E1B32; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:17px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#9E1B32; font-style:italic; }
+      .angulo { fill:none; stroke:#9E1B32; stroke-width:1.1; }
+    </style>
+  </defs>
+  <rect width="360" height="300" fill="white"/>
+
+  <!-- M arriba a la derecha -->
+  <circle cx="290" cy="60" r="4" class="puntoAzul"/>
+  <text x="300" y="56" class="etiqueta">M</text>
+
+  <!-- P y P' en la columna izquierda, separados por epsilon -->
+  <circle cx="110" cy="150" r="4" class="puntoRojo"/>
+  <text x="80" y="146" class="etiquetaRoja">P</text>
+
+  <circle cx="110" cy="200" r="4" class="puntoAzul"/>
+  <text x="80" y="214" class="etiquetaRoja">P'</text>
+
+  <!-- Q: pie de la perpendicular desde P sobre MP' -->
+  <circle cx="155" cy="168" r="3.5" class="puntoAzul"/>
+  <text x="163" y="166" class="etiqueta">Q</text>
+
+  <!-- lineas M-P y M-P' -->
+  <line x1="290" y1="60" x2="110" y2="150" class="linea"/>
+  <line x1="290" y1="60" x2="110" y2="200" class="linea"/>
+
+  <!-- segmento PP' (las dos capas) -->
+  <line x1="110" y1="150" x2="110" y2="200" class="linea"/>
+  <text x="90" y="178" class="etiquetaRoja">&#949;</text>
+
+  <!-- perpendicular P-Q -->
+  <line x1="110" y1="150" x2="155" y2="168" class="puntolinea"/>
+
+  <!-- angulo psi en M entre MP' y la normal PP' (aprox representado en P') -->
+  <path d="M 110,185 A 20,20 0 0 1 124,196" class="angulo"/>
+  <text x="118" y="182" class="etiquetaRoja">&#968;</text>
+
+</svg>
