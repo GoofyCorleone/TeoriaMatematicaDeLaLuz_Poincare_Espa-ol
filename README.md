@@ -53,8 +53,9 @@ Volumen I. El plan de trabajo completo, capítulo por capítulo, está en
     elástico (traducido y verificado ecuación por ecuación).
   - ✅ Capítulo II — Propagación de una onda plana. Interferencias.
   - ✅ Capítulo III — Principio de Huygens (piloto).
-  - ⏳ Capítulo IV — Difracción (el más extenso del volumen; en curso).
-  - ⬜ Capítulos V, VI, VII, VIII — pendientes.
+  - ✅ Capítulo IV — Difracción (el más extenso del volumen).
+  - ⏳ Capítulo V — Polarización rotatoria. Dispersión (en curso).
+  - ⬜ Capítulos VI, VII, VIII — pendientes.
 - ⬜ **Etapa 3** — integración y maquetación final del Volumen I.
 - ⬜ **Etapa 4** — publicación del Volumen I.
 - ⬜ **Volumen II** — sin iniciar; plan de alto nivel en
