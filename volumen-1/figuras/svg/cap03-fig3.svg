@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="300" viewBox="0 0 340 300">
+  <defs>
+    <style>
+      .onda { fill:none; stroke:#14315D; stroke-width:2.2; }
+      .linea { stroke:#9E1B32; stroke-width:1.6; }
+      .normal { stroke:#4A4A4A; stroke-width:1.2; stroke-dasharray:4,4; }
+      .punto { fill:#9E1B32; }
+      .puntoAzul { fill:#14315D; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#9E1B32; font-style:italic; }
+      .angulo { fill:none; stroke:#9E1B32; stroke-width:1.2; }
+    </style>
+  </defs>
+  <rect width="340" height="300" fill="white"/>
+
+  <!-- onda S: arco superior -->
+  <path d="M 60,120 Q 170,40 280,120" class="onda"/>
+  <text x="50" y="110" class="etiqueta">S</text>
+
+  <!-- onda S': arco inferior, concentrico -->
+  <path d="M 90,230 Q 170,170 250,230" class="onda"/>
+  <text x="80" y="250" class="etiqueta">S'</text>
+
+  <!-- punto B, apice de S -->
+  <circle cx="170" cy="63" r="4" class="puntoAzul"/>
+  <text x="178" y="58" class="etiqueta">B</text>
+
+  <!-- normal B-C -->
+  <line x1="170" y1="63" x2="170" y2="204" class="normal"/>
+  <circle cx="170" cy="204" r="4" class="puntoAzul"/>
+  <text x="178" y="212" class="etiqueta">C</text>
+
+  <!-- punto D sobre S' -->
+  <circle cx="120" cy="196" r="4" class="punto"/>
+  <text x="96" y="192" class="etiquetaRoja">D</text>
+
+  <!-- rayo B-D -->
+  <line x1="170" y1="63" x2="120" y2="196" class="linea"/>
+
+  <!-- arco del angulo DBC en B -->
+  <path d="M 170,93 A 30,30 0 0 0 146,78" class="angulo"/>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220">
+  <defs>
+    <style>
+      .radio { stroke:#9E1B32; stroke-width:1.6; stroke-dasharray:6,4; }
+      .onda { fill:none; stroke:#14315D; stroke-width:2; }
+      .puntoAzul { fill:#14315D; }
+      .punto { fill:#9E1B32; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#9E1B32; font-style:italic; }
+    </style>
+  </defs>
+  <rect width="320" height="220" fill="white"/>
+
+  <!-- centro O -->
+  <circle cx="60" cy="170" r="4" class="puntoAzul"/>
+  <text x="40" y="190" class="etiqueta">O</text>
+
+  <!-- punto M -->
+  <circle cx="260" cy="60" r="4" class="punto"/>
+  <text x="268" y="56" class="etiquetaRoja">M</text>
+
+  <!-- radio O-M -->
+  <line x1="60" y1="170" x2="260" y2="60" class="radio"/>
+  <text x="150" y="105" class="etiquetaRoja">r</text>
+
+  <!-- arco de la onda esferica que pasa por M -->
+  <path d="M 200,170 A 228,228 0 0 0 112,13" class="onda" transform="translate(0,0)"/>
+</svg>

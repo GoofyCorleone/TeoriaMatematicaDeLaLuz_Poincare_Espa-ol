@@ -1,0 +1,158 @@
+% ============================================================
+% estilo.tex — Plantilla visual del libro guía
+% Teoría Matemática de la Luz (H. Poincaré) — edición en español
+% ============================================================
+
+% ---------- Geometría de página: más texto por página ----------
+\usepackage[
+  paperwidth=17cm,paperheight=24cm,
+  inner=2cm,outer=1.8cm,top=2.2cm,bottom=2.4cm,
+  headheight=35pt,includeheadfoot
+]{geometry}
+
+% ---------- Tipografía y codificación ----------
+\usepackage[spanish,es-noindentfirst]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newpxtext,newpxmath} % serif de corte clásico, afín al original de 1889
+\usepackage{microtype}
+
+% ---------- Matemáticas ----------
+% newpxmath ya redefine \Bbbk y \openbox; se evita el choque con
+% amssymb/amsthm (no se usan entornos de teorema: se usan las cajas
+% tcolorbox definidas más abajo).
+\usepackage{amsmath}
+\let\Bbbk\relax
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+% ---------- Color: paleta del libro ----------
+\usepackage{xcolor}
+\definecolor{azulpoincare}{HTML}{14315D}      % azul profundo — títulos, estructura
+\definecolor{azulclaro}{HTML}{E8EEF5}         % azul muy claro — fondo de cajas de definición
+\definecolor{rojopoincare}{HTML}{9E1B32}      % rojo — acentos, cálculos, numeración
+\definecolor{rojoclaro}{HTML}{F7E9EA}         % rojo muy claro — fondo de cajas de cálculo
+\definecolor{grisnota}{HTML}{4A4A4A}          % gris — notas históricas
+
+% ---------- Figuras y cajas ----------
+\usepackage{graphicx}
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% ---------- Encabezados ----------
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=azulpoincare,
+  citecolor=rojopoincare,
+  urlcolor=azulpoincare,
+  pdftitle={Teoría Matemática de la Luz — Henri Poincaré},
+}
+
+% ============================================================
+% Portadilla de capítulo — imita la composición tipográfica
+% original ("CHAPITRE N" / título centrado, filete, blanco)
+% pero en español y con la paleta azul/rojo
+% ============================================================
+\titleformat{\chapter}[display]
+  {\normalfont\centering}
+  {\color{rojopoincare}\Large\scshape Capítulo \thechapter}
+  {12pt}
+  {\color{azulpoincare}\Huge\bfseries\scshape}
+\titlespacing*{\chapter}{0pt}{80pt}{40pt}
+
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+
+% ============================================================
+% Cajas de estilo "libro guía"
+% ============================================================
+
+% --- Cálculo detallado paso a paso (verificado por Opus) ---
+% Deliberadamente SIN recuadro de color: es una demostración, y los
+% recuadros de color se reservan para enunciados importantes, no para
+% su demostración. Solo un encabezado y un filete para separarlo
+% visualmente del cuerpo del texto.
+\newenvironment{calculodetallado}[1][]{%
+  \par\addvspace{10pt}%
+  \noindent{\color{rojopoincare}\rule{\textwidth}{0.6pt}}\par\vspace{2pt}
+  \noindent{\color{rojopoincare}\scshape\bfseries Cálculo detallado#1.}\par\smallskip
+  \nopagebreak
+}{%
+  \par\vspace{2pt}
+  \noindent{\color{rojopoincare}\rule{\textwidth}{0.6pt}}%
+  \addvspace{10pt}%
+}
+
+% --- Enunciado importante / principio / resultado clave ---
+% Para destacar afirmaciones centrales (principios, resultados
+% culminantes), NO para sus demostraciones.
+\newtcolorbox{enunciado}[1]{%
+  breakable,
+  enhanced,
+  colback=azulclaro,
+  colframe=azulpoincare,
+  boxrule=0.6pt,
+  left=8pt,right=8pt,top=6pt,bottom=6pt,
+  fonttitle=\bfseries\color{white},
+  coltitle=white,
+  colbacktitle=azulpoincare,
+  title={#1},
+  attach boxed title to top left={xshift=8pt,yshift=-2mm},
+  boxed title style={colback=azulpoincare,boxrule=0pt,sharp corners},
+}
+
+% --- Nota histórica / contexto ---
+\newtcolorbox{notahistorica}[1][]{%
+  breakable,
+  enhanced,
+  colback=white,
+  colframe=grisnota,
+  boxrule=0.5pt,
+  left=8pt,right=8pt,top=6pt,bottom=6pt,
+  fonttitle=\itshape\color{grisnota},
+  coltitle=grisnota,
+  title={Nota histórica#1},
+  attach boxed title to top left={xshift=8pt,yshift=-2mm},
+  boxed title style={colback=white,colframe=grisnota,boxrule=0.5pt,sharp corners},
+}
+
+% --- Definición / concepto clave ---
+\newtcolorbox{definicion}[1][]{%
+  breakable,
+  enhanced,
+  colback=azulclaro,
+  colframe=azulpoincare,
+  boxrule=0.6pt,
+  left=8pt,right=8pt,top=6pt,bottom=6pt,
+  fonttitle=\bfseries\color{white},
+  coltitle=white,
+  colbacktitle=azulpoincare,
+  title={Definición#1},
+  attach boxed title to top left={xshift=8pt,yshift=-2mm},
+  boxed title style={colback=azulpoincare,boxrule=0pt,sharp corners},
+}
+
+% ============================================================
+% Ecuaciones: numeración doble (libro guía + referencia original)
+% Uso: \begin{ecnum}{III.4}{orig. (4)} ... \end{ecnum}
+% ============================================================
+\newenvironment{ecnum}[2]{%
+  \gdef\ecnumA{#1}\gdef\ecnumB{#2}%
+  \begin{equation}%
+}{%
+  \tag{\ecnumA\ \text{\footnotesize[\ecnumB]}}%
+  \end{equation}%
+}
+
+% ---------- Encabezado de página (estilo "guía de lectura") ----------
+\setlength{\headheight}{35pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\color{azulpoincare}\scshape\nouppercase{\leftmark}}
+\fancyhead[LO]{\color{azulpoincare}\scshape\nouppercase{\rightmark}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{rojopoincare}\leaders\hrule height \headrulewidth\hfill}}
