@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="300" viewBox="0 0 420 300">
+  <defs>
+    <style>
+      .onda { fill:none; stroke:#14315D; stroke-width:2; }
+      .secundaria { fill:none; stroke:#9E1B32; stroke-width:1.6; stroke-dasharray:6,4; }
+      .punto { fill:#9E1B32; }
+      .centro { fill:#14315D; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#9E1B32; font-style:italic; }
+      .radio { stroke:#4A4A4A; stroke-width:1; stroke-dasharray:3,3; }
+    </style>
+  </defs>
+  <rect width="420" height="300" fill="white"/>
+
+  <!-- onda S -->
+  <circle cx="80" cy="150" r="90" class="onda"/>
+  <!-- onda S' -->
+  <circle cx="80" cy="150" r="150" class="onda"/>
+
+  <!-- punto fuente A -->
+  <circle cx="80" cy="150" r="4" class="centro"/>
+  <text x="60" y="140" class="etiqueta">A</text>
+
+  <!-- punto B sobre S -->
+  <circle cx="161.6" cy="112" r="3.5" class="punto"/>
+  <text x="168" y="108" class="etiquetaRoja">B</text>
+
+  <!-- ondita secundaria centrada en B, radio 60 -->
+  <circle cx="161.6" cy="112" r="60" class="secundaria"/>
+
+  <!-- etiquetas de las ondas -->
+  <text x="80" y="54" class="etiqueta">S</text>
+  <text x="68" y="14" class="etiqueta">S'</text>
+  <text x="205" y="60" class="etiquetaRoja">s</text>
+
+  <!-- radio punteado O-B -->
+  <line x1="80" y1="150" x2="161.6" y2="112" class="radio"/>
+</svg>

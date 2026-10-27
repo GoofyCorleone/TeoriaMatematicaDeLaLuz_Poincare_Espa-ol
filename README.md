@@ -39,6 +39,22 @@ notación del original pero:
 Volumen I. El plan de trabajo completo, capítulo por capítulo, está en
 [`ROADMAP.md`](ROADMAP.md).
 
+**Avance actual:**
+
+- ✅ **Etapa 0-1 (infraestructura y piloto)** — plantilla LaTeX, paleta
+  azul/rojo, portadillas de capítulo y de volumen al estilo del original,
+  cajas de "enunciado importante" y "nota histórica", figuras vectoriales
+  en Inkscape, y flujo de verificación matemática con Opus, todo validado
+  con el **Capítulo III — Principio de Huygens** como capítulo piloto
+  completo (traducido, verificado ecuación por ecuación y maquetado).
+- ⏳ **Etapa 2 (traducción capítulo por capítulo)** — siguiente paso: los
+  7 capítulos restantes del Volumen I, en el orden I → II → IV → V → VI →
+  VII → VIII.
+- ⬜ **Etapa 3** — integración y maquetación final del Volumen I.
+- ⬜ **Etapa 4** — publicación del Volumen I.
+- ⬜ **Volumen II** — sin iniciar; plan de alto nivel en
+  [`volumen-2/PLAN.md`](volumen-2/PLAN.md).
+
 ## Estructura del repositorio
 
 ```
