@@ -51,9 +51,10 @@ Volumen I. El plan de trabajo completo, capítulo por capítulo, está en
 - ⏳ **Etapa 2 (traducción capítulo por capítulo)** — en curso:
   - ✅ Capítulo I — Estudio de los pequeños movimientos en un medio
     elástico (traducido y verificado ecuación por ecuación).
+  - ✅ Capítulo II — Propagación de una onda plana. Interferencias.
   - ✅ Capítulo III — Principio de Huygens (piloto).
-  - ⏳ Capítulo II — en curso.
-  - ⬜ Capítulos IV, V, VI, VII, VIII — pendientes.
+  - ⏳ Capítulo IV — Difracción (el más extenso del volumen; en curso).
+  - ⬜ Capítulos V, VI, VII, VIII — pendientes.
 - ⬜ **Etapa 3** — integración y maquetación final del Volumen I.
 - ⬜ **Etapa 4** — publicación del Volumen I.
 - ⬜ **Volumen II** — sin iniciar; plan de alto nivel en
