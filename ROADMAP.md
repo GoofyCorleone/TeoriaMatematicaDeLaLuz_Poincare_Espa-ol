@@ -24,18 +24,22 @@ Ambas obras son de dominio público (Poincaré falleció en 1912).
   y se exporta a PDF vectorial para incluirse con `\includegraphics`.
   Ninguna figura se escanea ni se usa como imagen rasterizada.
 - **Paleta**: azul profundo + rojo, consistentes en portadillas, cajas de
-  cálculo y acentos tipográficos. Tonos exactos se fijan en la Etapa 1
-  (capítulo piloto) y quedan documentados en `volumen-1/preambulo/estilo.tex`.
-- **Estilo "libro guía"**: cajas diferenciadas para "Cálculo detallado paso a
-  paso", "Nota histórica" y "Definición"; portadillas de capítulo que imitan
-  la composición tipográfica de las portadas textuales originales (no la
-  pasta física), traducidas.
+  enunciado y acentos tipográficos. Tonos exactos fijados en la Etapa 1
+  (capítulo piloto) y documentados en `volumen-1/preambulo/estilo.tex`.
+- **Estilo "libro guía"**: cajas de color (azul) solo para **enunciados
+  importantes** — principios, resultados culminantes — nunca para sus
+  demostraciones. Las "Notas históricas" también llevan caja (gris). Las
+  portadillas de capítulo imitan la composición tipográfica de las
+  portadas textuales originales (no la pasta física), traducidas.
 - **Fidelidad**: la traducción sigue el texto y el orden de Poincaré; donde
   el original salta pasos algebraicos ("on obtient immédiatement", "il
-  vient", "on démontre"), se añade una caja de **cálculo detallado** que
-  desarrolla cada paso explícitamente, pensada para un estudiante de
-  pregrado. El texto original nunca se altera en su contenido matemático,
-  solo se expande pedagógicamente.
+  vient", "on démontre"), se extiende el cálculo **en el mismo lugar y en
+  el mismo registro de Poincaré**, como una ampliación de su propia prosa
+  — sin caja, sin encabezado que diga "cálculo detallado", sin pasos
+  numerados ni subtítulos en negrilla. La idea es que el lector siga
+  leyendo a Poincaré, no un aparato pedagógico añadido; nosotros solo
+  extendemos lo que él da por evidente, en su propia voz. El contenido
+  matemático original nunca se altera, solo se completa.
 
 ## Asignación de modelos (Sonnet vs. Opus)
 
@@ -86,7 +90,9 @@ dejando III ya resuelto como piloto):
 1. Transcripción fiel del francés (Sonnet).
 2. Traducción de prosa al español latino (Sonnet).
 3. Marcado de los saltos de cálculo que requieren desarrollo explícito
-   (Sonnet señala, Opus desarrolla paso a paso).
+   (Sonnet señala, Opus extiende el cálculo tejiéndolo en el mismo lugar
+   y el mismo registro de Poincaré — sin caja, sin pasos numerados, sin
+   subtítulos en negrilla).
 4. Verificación matemática del capítulo completo, cálculo por cálculo
    (Opus).
 5. Maquetación LaTeX del capítulo con cajas y referencias cruzadas (Sonnet).

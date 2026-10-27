@@ -482,13 +482,22 @@ d\xi = dr\int F\,d\sigma + r\,dr\int \frac{dF}{dr}\,d\sigma.
 
 Para calcular el valor de la segunda integral que entra en esta expresión,
 observemos que, siendo el radio $r$ normal al elemento de superficie
-$d\omega$, se tiene, según el teorema de Green,
+$d\omega$, la derivada $dF/dr$ no es otra cosa que la derivada normal de
+$F$: si se describe cada punto de la esfera por un vector unitario
+$\mathbf{n}=(n_1,n_2,n_3)$, de modo que $(x',y',z')=(x+rn_1,\,y+rn_2,\,z+rn_3)$,
+la regla de la cadena da
+$dF/dr = \frac{dF}{dx'}n_1+\frac{dF}{dy'}n_2+\frac{dF}{dz'}n_3=\nabla F\cdot\mathbf{n}$,
+y $\mathbf{n}$ es precisamente la normal exterior a la esfera en ese punto.
+Se tiene, pues, según el teorema de Green —el teorema de la divergencia,
+$\int_B \nabla\!\cdot\!\mathbf{G}\,d\tau=\int_S \mathbf{G}\cdot\mathbf{n}\,d\omega$,
+aplicado al campo $\mathbf{G}=\nabla F$, cuya divergencia es $\Delta F$—,
 \[
 \int \frac{dF}{dr}\,d\omega = \int \Delta F\,d\tau,
 \]
 siendo $d\tau$ un elemento de volumen, y extendiéndose la integral del
 segundo miembro a toda la esfera. Introduciendo en esta última igualdad el
-ángulo sólido $d\sigma$ que corresponde a $d\omega$, se convierte en
+ángulo sólido $d\sigma$ que corresponde a $d\omega$, y recordando que
+$d\omega=r^2d\sigma$, se convierte en
 \[
 \int \frac{dF}{dr}\,d\sigma = \frac{1}{r^2}\int \Delta F\,d\tau. \tag{5}
 \]
@@ -518,9 +527,21 @@ volumen de una capa comprendida entre las esferas de radios $r$ y $r+dr$.
 Consideremos uno de estos elementos, limitado por esas dos esferas y por un
 cono que tiene por vértice el centro común de ambas esferas y por base el
 elemento $d\omega$ de la superficie de la primera esfera. El volumen de
-este elemento será, despreciando los infinitésimos de orden superior al
-tercero, $d\omega\,dr$. Por consiguiente, la integral anterior se convierte
-en
+este elemento se obtiene integrando en la dirección radial el área
+$\rho^2\,d\sigma$ de la sección a distancia $\rho$ del centro:
+\begin{align*}
+\int_r^{r+dr}\rho^2\,d\sigma\,d\rho
+&= \frac{(r+dr)^3-r^3}{3}\,d\sigma
+= \bigl(r^2\,dr + r\,dr^2 + \tfrac13\,dr^3\bigr)\,d\sigma \\
+&= d\omega\,dr + \Bigl(\frac{dr}{r}+\frac{dr^2}{3r^2}\Bigr)\,d\omega\,dr .
+\end{align*}
+Contando $d\omega$ como infinitésimo de segundo orden y $dr$ como de primer
+orden, $d\omega\,dr$ es de tercer orden, y los demás términos son de
+cuarto orden o superior; del mismo modo, dentro de este elemento $\Delta F$
+difiere de su valor en la base solo en una cantidad de orden $dr$, lo que
+produce igualmente términos de cuarto orden. Despreciando todo ello, el
+volumen del elemento será, pues, $d\omega\,dr$. Por consiguiente, la
+integral anterior se convierte en
 \[
 \int \Delta F\,d\omega\,dr,\qquad\text{o bien}\qquad dr\int \Delta F\,d\omega,
 \]
@@ -529,217 +550,6 @@ obtiene entonces, para la relación (7),
 \[
 \frac{1}{V^2}\frac{d^2\xi}{dt^2} = \frac{1}{r}\int \Delta F\,d\omega. \tag{8}
 \]
-
-\begin{calculodetallado}[: de la ecuación (4) a las ecuaciones (5)--(8)]
-En todo este pasaje el punto $(x,y,z)$ está fijo y solo varía el tiempo
-$t$, y con él el radio $r=Vt$. Igual que Poincaré, escribimos $d/dr$, $d/dt$
-para las derivadas parciales. Conviene describir cada punto de la esfera
-mediante su dirección: si $\mathbf{n}=(n_1,n_2,n_3)$ es un vector unitario,
-el punto de la esfera de centro $(x,y,z)$ y radio $r$ en esa dirección es
-\[
-(x',y',z') = (x+rn_1,\; y+rn_2,\; z+rn_3).
-\]
-El ángulo sólido $d\sigma$ es el elemento de área de la esfera
-\emph{unidad} de direcciones $\mathbf{n}$: no depende de $r$, y el dominio
-de integración (todas las direcciones, de área total $4\pi$) tampoco. Esta
-es la razón de reemplazar $d\omega$ por $d\sigma$: en
-$\xi = r\int F\,d\sigma$, toda la dependencia en $r$ está en el factor $r$
-y dentro del integrando.
-
-\medskip
-\noindent\textbf{Paso 0: la expresión de $d\xi$.}
-Por la regla del producto,
-\[
-\frac{d\xi}{dr} = \frac{d}{dr}\Bigl(r\int F\,d\sigma\Bigr)
-= \int F\,d\sigma + r\,\frac{d}{dr}\int F\,d\sigma .
-\]
-Como el dominio de integración en $\mathbf{n}$ no depende de $r$, la
-derivada entra bajo el signo integral:
-$\dfrac{d}{dr}\displaystyle\int F\,d\sigma = \int \dfrac{dF}{dr}\,d\sigma$,
-donde, por la regla de la cadena,
-\[
-\frac{dF}{dr} = \frac{d}{dr}F(x+rn_1,\,y+rn_2,\,z+rn_3)
-= \frac{dF}{dx'}\,n_1 + \frac{dF}{dy'}\,n_2 + \frac{dF}{dz'}\,n_3
-= \nabla F\cdot\mathbf{n}.
-\]
-Multiplicando por $dr$:
-$d\xi = dr\displaystyle\int F\,d\sigma + r\,dr\int \frac{dF}{dr}\,d\sigma$.
-
-\medskip
-\noindent\textbf{Paso 1: el teorema de Green que se usa.}
-Lo que Poincaré llama «teorema de Green» es aquí el teorema de la
-divergencia (de Gauss--Ostrogradski): si $B$ es la bola de centro
-$(x,y,z)$ y radio $r$, $S$ su esfera frontera y $\mathbf{n}$ la normal
-unitaria exterior a $S$, para todo campo vectorial $\mathbf{G}$ con
-derivadas continuas se tiene
-\[
-\int_B \nabla\cdot\mathbf{G}\;d\tau = \int_S \mathbf{G}\cdot\mathbf{n}\;d\omega .
-\]
-Apliquémoslo al campo $\mathbf{G}=\nabla F
-=\bigl(\tfrac{dF}{dx'},\tfrac{dF}{dy'},\tfrac{dF}{dz'}\bigr)$ (suponemos $F$
-con derivadas segundas continuas). Su divergencia es
-\[
-\nabla\cdot\nabla F = \frac{d^2F}{dx'^2}+\frac{d^2F}{dy'^2}+\frac{d^2F}{dz'^2}
-= \Delta F,
-\]
-y su componente normal es la derivada normal
-$\nabla F\cdot\mathbf{n} = \dfrac{\partial F}{\partial n}$. Por tanto
-\[
-\int_S \frac{\partial F}{\partial n}\,d\omega = \int_B \Delta F\,d\tau .
-\]
-Ahora bien, en una esfera la normal exterior en cada punto tiene
-precisamente la dirección del radio que va del centro a ese punto: es el
-mismo vector $\mathbf{n}$ que usamos para parametrizar la esfera. Esto es
-lo que significa «el radio $r$ es normal al elemento $d\omega$». En
-consecuencia, por el Paso 0,
-\[
-\frac{dF}{dr} = \nabla F\cdot\mathbf{n} = \frac{\partial F}{\partial n},
-\]
-y el teorema toma la forma que usa Poincaré:
-\[
-\int \frac{dF}{dr}\,d\omega = \int \Delta F\,d\tau,
-\]
-con la integral de la izquierda sobre la superficie de la esfera de radio
-$r$ y la de la derecha sobre todo su volumen.
-
-\medskip
-\noindent\textbf{Paso 2: la relación (5).}
-Sobre la esfera de radio $r$ se tiene $d\omega = r^2\,d\sigma$, y $r^2$ es
-el mismo para todos los elementos, así que sale de la integral:
-\[
-\int \frac{dF}{dr}\,d\omega = \int \frac{dF}{dr}\,r^2\,d\sigma
-= r^2\int \frac{dF}{dr}\,d\sigma .
-\]
-Igualando con el Paso 1,
-\[
-r^2\int \frac{dF}{dr}\,d\sigma = \int \Delta F\,d\tau,
-\qquad\text{es decir,}\qquad
-\int \frac{dF}{dr}\,d\sigma = \frac{1}{r^2}\int \Delta F\,d\tau, \tag{5}
-\]
-que es la relación (5).
-
-\medskip
-\noindent\textbf{Paso 3: la relación (6).}
-Sustituimos (5) en el segundo término de $d\xi$ (Paso 0):
-\[
-r\,dr\int \frac{dF}{dr}\,d\sigma
-= r\,dr\cdot\frac{1}{r^2}\int \Delta F\,d\tau
-= \frac{dr}{r}\int \Delta F\,d\tau,
-\]
-de modo que
-\[
-d\xi = dr\int F\,d\sigma + \frac{dr}{r}\int \Delta F\,d\tau .
-\]
-Este incremento $d\xi$ es el que produce un incremento $dt$ del tiempo
-(con $x,y,z$ fijos), y $dr = V\,dt$. Dividiendo ambos miembros por $dr$:
-\[
-\frac{d\xi}{dr} = \int F\,d\sigma + \frac{1}{r}\int \Delta F\,d\tau ,
-\]
-y como
-$\dfrac{d\xi}{dr} = \dfrac{d\xi}{V\,dt} = \dfrac{1}{V}\dfrac{d\xi}{dt}$,
-\[
-\frac{1}{V}\frac{d\xi}{dt} = \int F\,d\sigma + \frac{1}{r}\int \Delta F\,d\tau . \tag{6}
-\]
-
-\medskip
-\noindent\textbf{Paso 4: la relación (7).}
-Derivamos (6) respecto de $r$, término a término.
-
-\emph{Primer miembro.} Como $r=Vt$, derivar respecto de $r$ es lo mismo
-que derivar respecto de $t$ y dividir por $V$:
-$\dfrac{d}{dr} = \dfrac{1}{V}\dfrac{d}{dt}$. Luego
-\[
-\frac{d}{dr}\Bigl(\frac{1}{V}\frac{d\xi}{dt}\Bigr)
-= \frac{1}{V}\frac{d}{dt}\Bigl(\frac{1}{V}\frac{d\xi}{dt}\Bigr)
-= \frac{1}{V^2}\frac{d^2\xi}{dt^2}.
-\]
-
-\emph{Primer término del segundo miembro.} Por el mismo argumento del
-Paso 0,
-\[
-\frac{d}{dr}\int F\,d\sigma = \int \frac{dF}{dr}\,d\sigma .
-\]
-
-\emph{Segundo término del segundo miembro.} Llamemos
-$I(r)=\int \Delta F\,d\tau$ a la integral sobre la bola de radio $r$; es
-una función de $r$, porque la bola crece con $r$. El término es el
-producto $\frac{1}{r}\cdot I(r)$, y por la regla del producto, usando
-$\frac{d}{dr}\bigl(\frac{1}{r}\bigr)=-\frac{1}{r^2}$,
-\[
-\frac{d}{dr}\Bigl(\frac{1}{r}\,I(r)\Bigr)
-= -\frac{1}{r^2}\,I(r) + \frac{1}{r}\,\frac{dI}{dr}
-= -\frac{1}{r^2}\int \Delta F\,d\tau + \frac{1}{r}\frac{d}{dr}\int \Delta F\,d\tau .
-\]
-
-Reuniendo los tres resultados,
-\[
-\frac{1}{V^2}\frac{d^2\xi}{dt^2}
-= \int \frac{dF}{dr}\,d\sigma
-- \frac{1}{r^2}\int \Delta F\,d\tau
-+ \frac{1}{r}\frac{d}{dr}\int \Delta F\,d\tau .
-\]
-Por (5), el primer término vale exactamente
-$\frac{1}{r^2}\int \Delta F\,d\tau$, de modo que los dos primeros términos
-se cancelan:
-\[
-\int \frac{dF}{dr}\,d\sigma - \frac{1}{r^2}\int \Delta F\,d\tau
-= \frac{1}{r^2}\int \Delta F\,d\tau - \frac{1}{r^2}\int \Delta F\,d\tau = 0,
-\]
-y queda
-\[
-\frac{1}{V^2}\frac{d^2\xi}{dt^2} = \frac{1}{r}\frac{d}{dr}\int \Delta F\,d\tau . \tag{7}
-\]
-
-\medskip
-\noindent\textbf{Paso 5: de (7) a (8), la capa esférica.}
-Escribamos la derivada como cociente de incrementos:
-\[
-\frac{d}{dr}\int \Delta F\,d\tau = \frac{I(r+dr)-I(r)}{dr}.
-\]
-La diferencia $I(r+dr)-I(r)$ es la integral de $\Delta F$ sobre lo que
-añade la bola de radio $r+dr$ a la de radio $r$, es decir, sobre la capa
-esférica comprendida entre las esferas de radios $r$ y $r+dr$. Por eso el
-segundo miembro de (7) es, salvo el factor $\frac{1}{r\,dr}$, la integral
-de $\Delta F$ sobre esa capa.
-
-Dividamos la capa en elementos mediante conos con vértice en el centro: el
-cono que se apoya en el elemento $d\omega=r^2\,d\sigma$ de la esfera
-interior corta la capa en un «ladrillo» de base $d\omega$ y altura $dr$.
-Su volumen exacto se obtiene integrando en la dirección radial el área
-$\rho^2\,d\sigma$ de la sección a distancia $\rho$:
-\begin{align*}
-\int_r^{r+dr}\rho^2\,d\sigma\,d\rho
-&= \frac{(r+dr)^3-r^3}{3}\,d\sigma
-= \bigl(r^2\,dr + r\,dr^2 + \tfrac13\,dr^3\bigr)\,d\sigma \\
-&= d\omega\,dr + \Bigl(\frac{dr}{r}+\frac{dr^2}{3r^2}\Bigr)\,d\omega\,dr .
-\end{align*}
-Contando $d\omega$ (un área) como infinitésimo de segundo orden y $dr$ como
-de primer orden, $d\omega\,dr$ es de tercer orden, y los términos
-restantes son de cuarto orden o superior. Del mismo modo, dentro del
-ladrillo $\Delta F$ difiere de su valor en el punto de la base solo en una
-cantidad de orden $dr$, lo que también produce términos de cuarto orden.
-Despreciando todo ello, la contribución del ladrillo es
-$\Delta F\,d\omega\,dr$, y sumando sobre toda la capa (el factor $dr$ es
-común a todos los elementos):
-\[
-I(r+dr)-I(r) = \int \Delta F\,d\omega\,dr = dr\int \Delta F\,d\omega,
-\]
-con la integral extendida a la esfera de radio $r$. Dividiendo por $dr$,
-\[
-\frac{d}{dr}\int \Delta F\,d\tau = \int \Delta F\,d\omega ,
-\]
-y sustituyendo en (7),
-\[
-\frac{1}{V^2}\frac{d^2\xi}{dt^2} = \frac{1}{r}\int \Delta F\,d\omega . \tag{8}
-\]
-
-\medskip
-\noindent\textbf{Comprobación final (§72).} Como $r$ es constante sobre la
-esfera, (8) dice
-$\dfrac{d^2\xi}{dt^2} = V^2\displaystyle\int \Delta F\,\frac{d\omega}{r}$, y
-por (3) el segundo miembro es $V^2\Delta\xi$: la ecuación (1) queda
-satisfecha.
-\end{calculodetallado}
 
 \noindent\textbf{72.} Sustituyendo, en la ecuación (1) del movimiento,
 $d^2\xi/dt^2$ por su valor tomado de esta última relación, y $\Delta\xi$
