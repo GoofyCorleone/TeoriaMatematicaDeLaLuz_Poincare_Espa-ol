@@ -70,21 +70,11 @@
 % Cajas de estilo "libro guía"
 % ============================================================
 
-% --- Cálculo detallado paso a paso (verificado por Opus) ---
-% Deliberadamente SIN recuadro de color: es una demostración, y los
-% recuadros de color se reservan para enunciados importantes, no para
-% su demostración. Solo un encabezado y un filete para separarlo
-% visualmente del cuerpo del texto.
-\newenvironment{calculodetallado}[1][]{%
-  \par\addvspace{10pt}%
-  \noindent{\color{rojopoincare}\rule{\textwidth}{0.6pt}}\par\vspace{2pt}
-  \noindent{\color{rojopoincare}\scshape\bfseries Cálculo detallado#1.}\par\smallskip
-  \nopagebreak
-}{%
-  \par\vspace{2pt}
-  \noindent{\color{rojopoincare}\rule{\textwidth}{0.6pt}}%
-  \addvspace{10pt}%
-}
+% Nota sobre los cálculos que extendemos: NO llevan caja, ni encabezado,
+% ni pasos numerados, ni subtítulos en negrilla. Se escriben como
+% continuación en prosa del propio texto, en el mismo registro que
+% Poincaré, como una simple ampliación de lo que él deja implícito — no
+% como un aparato pedagógico aparte. Ver CLAUDE.md.
 
 % --- Enunciado importante / principio / resultado clave ---
 % Para destacar afirmaciones centrales (principios, resultados
