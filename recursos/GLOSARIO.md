@@ -22,7 +22,18 @@ nota en contrario.
 | réflexion vitreuse / cristalline / métallique | reflexión vítrea / cristalina / metálica | |
 | aberration astronomique | aberración astronómica | |
 | hypothèse | hipótesis | |
-| on démontre / on obtient immédiatement / il vient | se demuestra / se obtiene inmediatamente / resulta | pasajes candidatos a caja de "cálculo detallado" |
+| on démontre / on obtient immédiatement / il vient | se demuestra / se obtiene inmediatamente / resulta | pasajes candidatos a extensión explícita tejida en prosa (sin caja, ver CLAUDE.md) |
+| fonction de forces U', U'' | función de fuerzas interior/exterior | U' fuerzas interiores, U'' fuerzas exteriores al sistema |
+| forces centrales | fuerzas centrales | fuerzas entre pares de moléculas dirigidas según la recta que las une |
+| rayon d'activité moléculaire | radio de actividad molecular | distancia máxima a la que actúan las fuerzas intermoleculares (cap. I, §12) |
+| corps isotrope | cuerpo isótropo | medio homogéneo donde todas las direcciones son idénticas |
+| polynômes isotropes | polinomios isótropos | H, Θ², K — invariantes bajo cambio de ejes (cap. I, §19-23) |
+| dilatation cubique | dilatación cúbica | la función Θ, coeficiente de cambio relativo de volumen |
+| pression extérieure | presión exterior | fuerzas de superficie ejercidas por el medio exterior a un volumen R |
+| principe de d'Alembert | principio de d'Alembert | |
+| principe des vitesses virtuelles | principio de las velocidades virtuales | |
+| mouvement longitudinal / transversal | movimiento longitudinal / transversal | del desplazamiento de las moléculas, no de ondas (cap. I, §34-39); distinto de "vibrations transversales/longitudinales" ya listado arriba, mismo par de adjetivos |
+| déterminant fonctionnel | determinante funcional | término de época para lo que hoy se llama jacobiano; se traduce literal con una nota aclaratoria la primera vez (cap. I, §21) |
 
 ## Convenciones de notación matemática
 
