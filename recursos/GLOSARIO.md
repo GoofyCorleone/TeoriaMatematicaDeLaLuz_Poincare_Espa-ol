@@ -55,6 +55,13 @@ nota en contrario.
 | ouverture semblable | abertura semejante | misma forma, escalada por una razón $K$ (cap. IV, §107) |
 | angle de déviation | ángulo de desviación | ángulo $\delta$ entre $OP$ y la normal al plano de la abertura (cap. IV, §107) |
 | maximum principal / secondaire | máximo principal / secundario | en redes y puntos equidistantes: el máximo de intensidad $\propto n^2$ frente a los máximos menores entre dos de ellos (cap. IV, §118) |
+| cristal hémiédrique | cristal hemiédrico | cristal sin centro de simetría (cap. V, §125, cuarzo) |
+| centre de symétrie / axe de symétrie | centro de simetría / eje de simetría | cap. V, §125 y §143; reaparecerá en el cap. VI (doble refracción) |
+| indice de réfraction | índice de refracción | inversamente proporcional a la velocidad de propagación $V$ (cap. V, §128) |
+| dissolution | disolución | cap. V, §127 (polarización rotatoria de disoluciones orgánicas) |
+| corps amorphe | cuerpo amorfo | moléculas materiales dispuestas irregularmente, sin red cristalina (cap. V, §138) |
+| parallélépipède élémentaire | paralelepípedo elemental | celda del retículo cristalino, según Bravais (cap. V, §131) |
+| entraînement (de la matière par l'éther) | arrastre (de la materia por el éter) | hipótesis de Cauchy: la materia vibra con la misma amplitud que el éter que la rodea (cap. V, §129) |
 
 ## Convenciones de notación matemática
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="260" viewBox="0 0 320 260">
+  <defs>
+    <style>
+      .contorno { fill:none; stroke:#14315D; stroke-width:2.2; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:17px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family: 'CMU Serif','Georgia',serif; font-size:17px; fill:#9E1B32; font-style:italic; }
+    </style>
+  </defs>
+  <rect width="320" height="260" fill="white"/>
+
+  <!-- superficie S -->
+  <circle cx="160" cy="130" r="90" class="contorno"/>
+  <text x="195" y="35" class="etiqueta">S</text>
+
+  <!-- region interior R -->
+  <text x="140" y="135" class="etiqueta">R</text>
+
+  <!-- region exterior R' -->
+  <text x="270" y="135" class="etiquetaRoja">R'</text>
+</svg>
