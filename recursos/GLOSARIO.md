@@ -12,7 +12,7 @@ nota en contrario.
 | mouvement vibratoire | movimiento vibratorio | |
 | fonction des forces | función de fuerzas | notación U en el original |
 | dilatation (linéaire/angulaire/cubique) | dilatación (lineal/angular/cúbica) | |
-| force vive | fuerza viva | energía cinética, terminología de época; se traduce literal y se aclara como "energía cinética" en nota al pie la primera vez que aparece |
+| force vive | fuerza viva | Σmv² en la terminología de 1889 — el DOBLE de la energía cinética moderna (no simplemente "energía cinética"); se traduce literal y se aclara en nota al pie la primera vez que aparece (cap. II, §45) |
 | onde plane | onda plana | |
 | rayon lumineux | rayo luminoso | |
 | vibrations transversales / longitudinales | vibraciones transversales / longitudinales | |
@@ -34,6 +34,16 @@ nota en contrario.
 | principe des vitesses virtuelles | principio de las velocidades virtuales | |
 | mouvement longitudinal / transversal | movimiento longitudinal / transversal | del desplazamiento de las moléculas, no de ondas (cap. I, §34-39); distinto de "vibrations transversales/longitudinales" ya listado arriba, mismo par de adjetivos |
 | déterminant fonctionnel | determinante funcional | término de época para lo que hoy se llama jacobiano; se traduce literal con una nota aclaratoria la primera vez (cap. I, §21) |
+| rayons évanescents | rayos evanescentes | onda cuya amplitud decae exponencialmente al alejarse de un plano, sin propagarse (cap. II, §53) |
+| intensité lumineuse | intensidad luminosa | proporcional al valor medio de $\xi^2+\eta^2$ (cap. II, §56) |
+| différence de marche | diferencia de marcha | $\psi=(2\pi/\lambda)(z'-z)$, desfase entre dos rayos (cap. II, §57) |
+| frange d'interférence | franja de interferencia | |
+| plan de polarisation | plano de polarización | |
+| polarisation elliptique / rectiligne | polarización elíptica / rectilínea | según la trayectoria (elipse o recta) de la molécula vibrante (cap. II, §54) |
+| réflexion totale | reflexión total | |
+| angle limite | ángulo límite | ángulo de incidencia a partir del cual se produce reflexión total (hoy también "ángulo crítico") |
+| longueur d'onde | longitud de onda | $\lambda=V\tau$ (cap. II, §52) |
+| lumière naturelle | luz natural | luz no polarizada |
 
 ## Convenciones de notación matemática
 
