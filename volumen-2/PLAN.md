@@ -21,7 +21,9 @@ de materias se releva en la Etapa 0 propia del volumen, no antes.
    se duplica).
 2. **Reutilizar** la plantilla LaTeX y la paleta azul/rojo definidas en
    `../volumen-1/preambulo/estilo.tex`, para que ambos volúmenes se lean
-   como una sola colección.
+   como una sola colección. El `main.tex` del Volumen II debe incluir
+   `\tableofcontents` seguido de `\listoffigures` ("Índice de figuras"),
+   igual que `../volumen-1/main.tex`.
 3. **Etapas 2-4** — mismo pipeline capítulo por capítulo (transcripción →
    traducción → desarrollo de cálculos con Opus → verificación matemática
    completa con Opus → maquetación → figuras → control de calidad) descrito

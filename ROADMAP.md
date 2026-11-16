@@ -30,7 +30,9 @@ Ambas obras son de dominio público (Poincaré falleció en 1912).
   importantes** — principios, resultados culminantes — nunca para sus
   demostraciones. Las "Notas históricas" también llevan caja (gris). Las
   portadillas de capítulo imitan la composición tipográfica de las
-  portadas textuales originales (no la pasta física), traducidas.
+  portadas textuales originales (no la pasta física), traducidas. Cada
+  volumen lleva `\tableofcontents` seguido de `\listoffigures` ("Índice
+  de figuras") en su `main.tex`.
 - **Fidelidad**: la traducción sigue el texto y el orden de Poincaré; donde
   el original salta pasos algebraicos ("on obtient immédiatement", "il
   vient", "on démontre"), se extiende el cálculo **en el mismo lugar y en
