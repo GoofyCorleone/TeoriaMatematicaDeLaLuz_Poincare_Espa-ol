@@ -58,8 +58,10 @@ Volumen I. El plan de trabajo completo, capítulo por capítulo, está en
   - ✅ Capítulo VI — Doble refracción (el capítulo más extenso del
     volumen, con las subteorías de Fresnel, Cauchy, Neumann, Sarrau y
     Boussinesq, más la superficie de onda y los medios hemiedros).
-  - ⏳ Capítulo VII — Reflexión (siguiente paso).
-  - ⬜ Capítulo VIII — pendiente.
+  - ✅ Capítulo VII — Reflexión (vítrea, cristalina y metálica; tres
+    enunciados distintos del Teorema de Mac-Cullagh).
+  - ⏳ Capítulo VIII — Aberración astronómica (el último del volumen;
+    siguiente paso).
 - ⬜ **Etapa 3** — integración y maquetación final del Volumen I.
 - ⬜ **Etapa 4** — publicación del Volumen I.
 - ⬜ **Volumen II** — sin iniciar; plan de alto nivel en
