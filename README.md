@@ -45,24 +45,29 @@ Volumen I. El plan de trabajo completo, capítulo por capítulo, está en
   azul/rojo, portadillas de capítulo y de volumen al estilo del original,
   cajas de "enunciado importante" (solo para principios y resultados
   centrales, nunca para demostraciones) y "nota histórica", figuras
-  vectoriales en Inkscape, y flujo de verificación matemática con Opus,
-  todo validado con el **Capítulo III — Principio de Huygens** como
-  capítulo piloto completo.
-- ⏳ **Etapa 2 (traducción capítulo por capítulo)** — en curso:
-  - ✅ Capítulo I — Estudio de los pequeños movimientos en un medio
-    elástico (traducido y verificado ecuación por ecuación).
-  - ✅ Capítulo II — Propagación de una onda plana. Interferencias.
-  - ✅ Capítulo III — Principio de Huygens (piloto).
-  - ✅ Capítulo IV — Difracción (el más extenso del volumen).
-  - ✅ Capítulo V — Polarización rotatoria. Dispersión.
-  - ✅ Capítulo VI — Doble refracción (el capítulo más extenso del
-    volumen, con las subteorías de Fresnel, Cauchy, Neumann, Sarrau y
-    Boussinesq, más la superficie de onda y los medios hemiedros).
-  - ✅ Capítulo VII — Reflexión (vítrea, cristalina y metálica; tres
+  vectoriales en Inkscape, índice de figuras, y flujo de verificación
+  matemática con Opus, todo validado con el **Capítulo III — Principio de
+  Huygens** como capítulo piloto completo.
+- ✅ **Etapa 2 (traducción capítulo por capítulo) — completa.** Los 8
+  capítulos del Volumen I, más las Conclusiones finales del libro, están
+  traducidos y verificados ecuación por ecuación:
+  - Capítulo I — Estudio de los pequeños movimientos en un medio elástico.
+  - Capítulo II — Propagación de una onda plana. Interferencias.
+  - Capítulo III — Principio de Huygens (piloto).
+  - Capítulo IV — Difracción (el más extenso del volumen).
+  - Capítulo V — Polarización rotatoria. Dispersión.
+  - Capítulo VI — Doble refracción (el capítulo más extenso del volumen,
+    con las subteorías de Fresnel, Cauchy, Neumann, Sarrau y Boussinesq,
+    más la superficie de onda y los medios hemiedros).
+  - Capítulo VII — Reflexión (vítrea, cristalina y metálica; tres
     enunciados distintos del Teorema de Mac-Cullagh).
-  - ⏳ Capítulo VIII — Aberración astronómica (el último del volumen;
-    siguiente paso).
-- ⬜ **Etapa 3** — integración y maquetación final del Volumen I.
+  - Capítulo VIII — Aberración astronómica (coeficiente de arrastre de
+    Fresnel).
+  - Conclusiones (unidad propia, sin número de capítulo, como en el
+    original).
+- ⏳ **Etapa 3 (siguiente paso)** — integración y maquetación final del
+  Volumen I: revisión global de consistencia de notación, numeración y
+  referencias cruzadas entre los 8 capítulos.
 - ⬜ **Etapa 4** — publicación del Volumen I.
 - ⬜ **Volumen II** — sin iniciar; plan de alto nivel en
   [`volumen-2/PLAN.md`](volumen-2/PLAN.md).
