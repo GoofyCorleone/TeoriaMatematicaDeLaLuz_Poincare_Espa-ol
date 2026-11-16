@@ -55,10 +55,11 @@ Volumen I. El plan de trabajo completo, capítulo por capítulo, está en
   - ✅ Capítulo III — Principio de Huygens (piloto).
   - ✅ Capítulo IV — Difracción (el más extenso del volumen).
   - ✅ Capítulo V — Polarización rotatoria. Dispersión.
-  - ⬜ Capítulo VI — Doble refracción (siguiente paso; es el segundo
-    capítulo más extenso, con las subteorías de Fresnel, Cauchy,
-    Neumann, Sarrau y Boussinesq, más la superficie de onda).
-  - ⬜ Capítulos VII, VIII — pendientes.
+  - ✅ Capítulo VI — Doble refracción (el capítulo más extenso del
+    volumen, con las subteorías de Fresnel, Cauchy, Neumann, Sarrau y
+    Boussinesq, más la superficie de onda y los medios hemiedros).
+  - ⏳ Capítulo VII — Reflexión (siguiente paso).
+  - ⬜ Capítulo VIII — pendiente.
 - ⬜ **Etapa 3** — integración y maquetación final del Volumen I.
 - ⬜ **Etapa 4** — publicación del Volumen I.
 - ⬜ **Volumen II** — sin iniciar; plan de alto nivel en
