@@ -38,6 +38,12 @@ nota en contrario.
 | vibrations quasi-transversales / quasi-longitudinales | vibraciones cuasi-transversales / cuasi-longitudinales | en la teoría de Cauchy de la doble refracción (cap. VI, §159); por la débil birrefringencia, dos ondas tienen vibración casi transversal y la tercera casi longitudinal |
 | cylindre de polarisation | cilindro de polarización | análogo, en la teoría de Neumann, al elipsoide de polarización de Fresnel/Cauchy; degenera a cilindro porque uno de los ejes del elipsoide es nulo (cap. VI, §164) |
 | équations de Lamé | ecuaciones de Lamé | forma de las ecuaciones del movimiento en la teoría de Neumann, introduciendo las cantidades u,v,w (análogas a un rotacional) (cap. VI, §166) |
+| réfraction uniradiale | refracción uniradial | fenómeno de reflexión/refracción cristalina: con el rayo incidente polarizado por un nicol, girar el nicol extingue alternativamente uno de los dos rayos refractados (cap. VII, §222) |
+| plan polaire (d'un rayon réfracté) | plano polar (de un rayo refractado) | construcción geométrica de Mac-Cullagh sobre la superficie de onda (punto O, paralela ON a la vibración de Neumann, punto M, pie de perpendicular P, punto T con OT=R²/OP); no confundir con "plan de polarisation" (cap. VII, §223) |
+| direction uniradiale | dirección uniradial | dirección de la vibración incidente para la cual se extingue uno de los dos rayos refractados (cap. VII, §222) |
+| milieu absorbant | medio absorbente | medio opaco (p. ej. un metal) que atenúa la amplitud de la onda al propagarse; se trata formalmente dándole un índice de refracción imaginario (cap. VII, §227) |
+| indice (de réfraction) imaginaire | índice de refracción imaginario | artificio de Cauchy para la reflexión metálica: N complejo, $N=m(\cos\chi-i\sin\chi)$ (cap. VII, §227-230) |
+| plan d'absorption | plano de absorción | plano normal a la dirección en la que decae la amplitud de la onda en un medio absorbente; distinto del plano de la onda (cap. VII, §227) |
 | fonctions périodiques | funciones periódicas | en la teoría de M. Sarrau, funciones de las coordenadas cuyo valor medio sobre un período es la cantidad físicamente medible (cap. VI, §167-174) |
 | intensité lumineuse | intensidad luminosa | proporcional al valor medio de $\xi^2+\eta^2$ (cap. II, §56) |
 | différence de marche | diferencia de marcha | $\psi=(2\pi/\lambda)(z'-z)$, desfase entre dos rayos (cap. II, §57) |
@@ -79,6 +85,11 @@ nota en contrario.
 | plan tangent singulier | plano tangente singular | plano tangente a la superficie de onda en una infinidad de puntos distintos a la vez, en vez de uno solo (cap. VI, §187) |
 | réfraction conique (intérieure/extérieure) | refracción cónica (interior/exterior) | predicha por Hamilton (1832) a partir de los ombligos, confirmada experimentalmente por Lloyd; no se desarrolla en este libro (cap. VI, §187) |
 | milieu hémièdre / holoèdre | medio hemiedro / holoedro | hemiedro: cristal sin centro de simetría (cap. V, §125); holoedro: con los tres planos de simetría óptica. La doble refracción "ordinaria" se aplica a los holoedros; los hemiedros requieren la teoría del §190 en adelante |
+| loi de Brewster | ley de Brewster | si el rayo reflejado es perpendicular al refractado, el reflejado queda enteramente polarizado en el plano de incidencia (cap. VII, §205) |
+| théorème de Mac-Cullagh | teorema de Mac-Cullagh | aparece dos veces con contenido distinto: en la teoría de Fresnel (§204, relación entre vibración incidente/refractada) y en la de Neumann (§215, construcción geométrica OI/OR/OR'); se distinguen en las cajas con un paréntesis aclaratorio |
+| principe de continuité | principio de continuidad | exigencia de que ciertas componentes del desplazamiento (y a veces sus derivadas) sean funciones continuas al atravesar la superficie de separación; su alcance exacto varía según la teoría (Fresnel, Neumann, Cauchy) (cap. VII, §199 y ss.) |
+| couche de passage | capa de paso | región intermedia, de espesor finito pero mucho menor que una longitud de onda, donde la densidad del éter transita rápidamente de un valor constante a otro; reemplaza la idea de una discontinuidad brusca entre los dos medios (cap. VII, §208) |
+| rayons longitudinaux évanescents | rayos longitudinales evanescentes | en la teoría de Cauchy de la reflexión, vibraciones longitudinales de velocidad de propagación imaginaria, que decaen exponencialmente y no transportan fuerza viva observable (cap. VII, §216) |
 
 ## Convenciones de notación matemática
 

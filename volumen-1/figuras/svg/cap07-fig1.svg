@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="380" viewBox="0 0 420 380">
+  <defs>
+    <style>
+      .curva { fill:none; stroke:#14315D; stroke-width:2; }
+      .linea { stroke:#14315D; stroke-width:1.4; }
+      .interfaz { stroke:#4A4A4A; stroke-width:1.2; }
+      .haz { fill:none; stroke:#9E1B32; stroke-width:1.6; }
+      .puntoAzul { fill:#14315D; }
+      .punto { fill:#9E1B32; }
+      .etiqueta { font-family:'CMU Serif','Georgia',serif; font-size:15px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family:'CMU Serif','Georgia',serif; font-size:15px; fill:#9E1B32; font-style:italic; }
+    </style>
+  </defs>
+  <rect width="420" height="380" fill="white"/>
+
+  <!-- interfaz entre los dos medios -->
+  <line x1="20" y1="230" x2="400" y2="230" class="interfaz"/>
+  <circle cx="120" cy="230" r="3" class="puntoAzul"/>
+  <text x="108" y="248" class="etiqueta">B</text>
+  <circle cx="190" cy="230" r="3" class="puntoAzul"/>
+  <text x="196" y="248" class="etiqueta">A</text>
+
+  <!-- paralelepipedo incidente (de arriba-derecha hacia B) -->
+  <g transform="rotate(-38 300 100)">
+    <rect x="260" y="60" width="150" height="46" class="haz"/>
+  </g>
+  <text x="372" y="60" class="etiquetaRoja">C</text>
+  <text x="372" y="118" class="etiquetaRoja">E</text>
+  <text x="296" y="18" class="etiqueta">D</text>
+  <text x="258" y="64" class="etiqueta">F</text>
+  <circle cx="190" cy="230" r="0" />
+  <text x="250" y="150" class="etiqueta">m</text>
+
+  <!-- paralelepipedo reflejado (de B hacia arriba-izquierda) -->
+  <g transform="rotate(38 120 100)">
+    <rect x="10" y="60" width="150" height="46" class="haz"/>
+  </g>
+  <text x="8" y="60" class="etiquetaRoja">C'</text>
+  <text x="8" y="118" class="etiquetaRoja">E'</text>
+  <text x="130" y="18" class="etiqueta">D'</text>
+  <text x="152" y="64" class="etiqueta">F'</text>
+  <text x="150" y="150" class="etiqueta">m'</text>
+
+  <!-- paralelepipedo refractado (de A hacia abajo) -->
+  <g transform="rotate(32 255 310)">
+    <rect x="255" y="290" width="150" height="46" class="haz"/>
+  </g>
+  <text x="400" y="294" class="etiquetaRoja">C''</text>
+  <text x="400" y="348" class="etiquetaRoja">E''</text>
+  <text x="222" y="275" class="etiqueta">D''</text>
+  <text x="222" y="366" class="etiqueta">F''</text>
+  <text x="290" y="305" class="etiqueta">m''</text>
+</svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420">
+  <defs>
+    <style>
+      .lado { stroke:#14315D; stroke-width:1.6; }
+      .diagonal { stroke:#14315D; stroke-width:2; }
+      .resultado { stroke:#9E1B32; stroke-width:2.4; }
+      .composicion { stroke:#9E1B32; stroke-width:1.2; stroke-dasharray:5,4; }
+      .punto { fill:#9E1B32; }
+      .puntoAzul { fill:#14315D; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#9E1B32; font-style:italic; }
+    </style>
+  </defs>
+  <rect width="420" height="420" fill="white"/>
+
+  <!-- O: centro -->
+  <circle cx="210" cy="210" r="4.5" class="puntoAzul"/>
+  <text x="218" y="226" class="etiqueta">O</text>
+
+  <!-- seis direcciones a 60 grados: I, R', S', I', S'', R'' -->
+  <!-- I: 0 grados -->
+  <line x1="210" y1="210" x2="330" y2="210" class="lado"/>
+  <circle cx="330" cy="210" r="3.5" class="puntoAzul"/>
+  <text x="338" y="206" class="etiqueta">I</text>
+
+  <!-- R': 60 grados (arriba-derecha) -->
+  <line x1="210" y1="210" x2="270" y2="106" class="diagonal"/>
+  <circle cx="270" cy="106" r="3.5" class="punto"/>
+  <text x="278" y="100" class="etiquetaRoja">R'</text>
+
+  <!-- S': 120 grados (arriba-izquierda) -->
+  <line x1="210" y1="210" x2="150" y2="106" class="lado"/>
+  <circle cx="150" cy="106" r="3.5" class="puntoAzul"/>
+  <text x="112" y="100" class="etiqueta">S'</text>
+
+  <!-- I': 180 grados -->
+  <line x1="210" y1="210" x2="90" y2="210" class="lado"/>
+  <circle cx="90" cy="210" r="3.5" class="puntoAzul"/>
+  <text x="62" y="206" class="etiqueta">I'</text>
+
+  <!-- S'': 240 grados (abajo-izquierda) -->
+  <line x1="210" y1="210" x2="150" y2="314" class="lado"/>
+  <circle cx="150" cy="314" r="3.5" class="puntoAzul"/>
+  <text x="112" y="332" class="etiqueta">S''</text>
+
+  <!-- R'': 300 grados (abajo-derecha) -->
+  <line x1="210" y1="210" x2="270" y2="314" class="diagonal"/>
+  <circle cx="270" cy="314" r="3.5" class="punto"/>
+  <text x="278" y="332" class="etiquetaRoja">R''</text>
+
+  <!-- paralelogramo O I' R' S' -->
+  <line x1="90" y1="210" x2="270" y2="106" class="lado"/>
+  <line x1="150" y1="106" x2="270" y2="106" class="lado"/>
+
+  <!-- paralelogramo O I'' R'' S'' : usamos I como I'' del otro lado -->
+  <line x1="330" y1="210" x2="270" y2="314" class="lado"/>
+  <line x1="150" y1="314" x2="270" y2="314" class="lado"/>
+
+  <!-- composicion final: S = S' + S'' - O -->
+  <circle cx="210" cy="420" r="0" />
+  <line x1="150" y1="106" x2="90" y2="320" class="composicion"/>
+  <line x1="150" y1="314" x2="90" y2="320" class="composicion"/>
+  <circle cx="90" cy="320" r="4" class="punto"/>
+  <text x="56" y="336" class="etiquetaRoja">S</text>
+  <line x1="210" y1="210" x2="90" y2="320" class="resultado"/>
+</svg>

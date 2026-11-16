@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="300" viewBox="0 0 340 300">
+  <defs>
+    <style>
+      .onda { fill:none; stroke:#14315D; stroke-width:2.2; }
+      .linea { stroke:#14315D; stroke-width:1.4; }
+      .construccion { stroke:#9E1B32; stroke-width:1.3; stroke-dasharray:5,4; }
+      .recta { stroke:#9E1B32; stroke-width:1.6; }
+      .punto { fill:#9E1B32; }
+      .puntoAzul { fill:#14315D; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#9E1B32; font-style:italic; }
+      .angulo { fill:none; stroke:#4A4A4A; stroke-width:1; }
+    </style>
+  </defs>
+  <rect width="340" height="300" fill="white"/>
+
+  <!-- O: origen -->
+  <circle cx="160" cy="40" r="4" class="puntoAzul"/>
+  <text x="168" y="36" class="etiqueta">O</text>
+
+  <!-- N: direccion de la vibracion de Neumann -->
+  <line x1="160" y1="40" x2="65" y2="150" class="linea"/>
+  <circle cx="65" cy="150" r="3.5" class="puntoAzul"/>
+  <text x="42" y="148" class="etiqueta">N</text>
+
+  <!-- rayon OM -->
+  <line x1="160" y1="40" x2="268" y2="128" class="linea"/>
+  <circle cx="268" cy="128" r="4" class="punto"/>
+  <text x="276" y="122" class="etiquetaRoja">M</text>
+
+  <!-- superficie de onda: arco que pasa por M -->
+  <path d="M 200,70 Q 250,95 268,128 Q 278,160 255,185" class="onda"/>
+
+  <!-- plano tangente en M -->
+  <line x1="300" y1="100" x2="230" y2="165" class="linea"/>
+
+  <!-- perpendicular O-P sobre el plano tangente -->
+  <line x1="160" y1="40" x2="150" y2="150" class="construccion"/>
+  <circle cx="150" cy="150" r="3.5" class="puntoAzul"/>
+  <text x="128" y="155" class="etiqueta">P</text>
+  <path d="M 158,140 L 165,147 L 158,154" class="angulo"/>
+
+  <!-- prolongacion O-P hasta T, con OT = R^2/OP -->
+  <line x1="150" y1="150" x2="163" y2="248" class="construccion"/>
+  <circle cx="163" cy="248" r="4" class="punto"/>
+  <text x="171" y="252" class="etiquetaRoja">T</text>
+
+  <!-- recta MT (define el plano polar junto con ON) -->
+  <line x1="268" y1="128" x2="163" y2="248" class="recta"/>
+</svg>
