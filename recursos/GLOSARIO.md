@@ -90,6 +90,13 @@ nota en contrario.
 | principe de continuité | principio de continuidad | exigencia de que ciertas componentes del desplazamiento (y a veces sus derivadas) sean funciones continuas al atravesar la superficie de separación; su alcance exacto varía según la teoría (Fresnel, Neumann, Cauchy) (cap. VII, §199 y ss.) |
 | couche de passage | capa de paso | región intermedia, de espesor finito pero mucho menor que una longitud de onda, donde la densidad del éter transita rápidamente de un valor constante a otro; reemplaza la idea de una discontinuidad brusca entre los dos medios (cap. VII, §208) |
 | rayons longitudinaux évanescents | rayos longitudinales evanescentes | en la teoría de Cauchy de la reflexión, vibraciones longitudinales de velocidad de propagación imaginaria, que decaen exponencialmente y no transportan fuerza viva observable (cap. VII, §216) |
+| aberration astronomique | aberración astronómica | ángulo entre la dirección real de un astro y la dirección aparente vista con un anteojo, debido al movimiento de la Tierra (cap. VIII, §231) |
+| lunette | anteojo | instrumento óptico (telescopio refractor); se usa "anteojo" en vez de "telescopio" por fidelidad al registro de época (cap. VIII, §231) |
+| entraînement (partiel) de l'éther | arrastre (parcial) del éter | el éter contenido en un medio material en movimiento se mueve con él a una velocidad $v(1-1/n^2)$, fracción de la velocidad del medio (cap. VIII, §234) — no confundir con "entraînement (de la matière par l'éther)" del cap. V, que es la hipótesis inversa |
+| coefficient de Fresnel | coeficiente de arrastre de Fresnel | el factor $(1-1/n^2)$ en la velocidad de arrastre del éter (cap. VIII, §239) |
+| milieu en mouvement | medio en movimiento | medio material animado de una velocidad de traslación $v$, distinto del medio en reposo (cap. VIII, §236 en adelante) |
+| vitesse d'entraînement | velocidad de arrastre | |
+| couche de passage | capa de paso | ver también cap. VII, §208; reaparece en las Conclusiones (§242) como ejemplo de coeficientes variables en las ecuaciones del movimiento |
 
 ## Convenciones de notación matemática
 

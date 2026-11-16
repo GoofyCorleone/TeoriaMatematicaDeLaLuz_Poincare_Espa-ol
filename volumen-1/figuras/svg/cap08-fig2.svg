@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="360" viewBox="0 0 320 360">
+  <defs>
+    <style>
+      .solida { fill:none; stroke:#14315D; stroke-width:2.2; }
+      .punteada { fill:none; stroke:#9E1B32; stroke-width:1.8; stroke-dasharray:6,4; }
+      .punto { fill:#14315D; }
+      .puntoRojo { fill:#9E1B32; }
+      .etiqueta { font-family:'CMU Serif','Georgia',serif; font-size:17px; fill:#14315D; font-style:italic; }
+      .elipse { fill:none; stroke:#14315D; stroke-width:1.4; }
+    </style>
+  </defs>
+  <rect width="320" height="360" fill="white"/>
+
+  <!-- E arriba (estrella), A objetivo del anteojo, B y B' en el retículo -->
+  <text x="195" y="30" class="etiqueta">E</text>
+  <line x1="200" y1="40" x2="90" y2="300" class="solida"/>
+  <ellipse cx="150" cy="170" rx="34" ry="12" class="elipse" transform="rotate(-62 150 170)"/>
+  <circle cx="150" cy="170" r="3.5" class="punto"/>
+  <text x="158" y="166" class="etiqueta">A</text>
+
+  <line x1="150" y1="170" x2="90" y2="300" class="punteada"/>
+
+  <circle cx="90" cy="300" r="3.5" class="puntoRojo"/>
+  <text x="68" y="320" class="etiqueta">B</text>
+  <circle cx="120" cy="300" r="3.5" class="punto"/>
+  <text x="128" y="320" class="etiqueta">B'</text>
+</svg>

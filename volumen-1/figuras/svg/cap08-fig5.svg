@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="260" viewBox="0 0 420 260">
+  <defs>
+    <style>
+      .eje { stroke:#4A4A4A; stroke-width:1.2; }
+      .camino { fill:none; stroke:#14315D; stroke-width:2.2; }
+      .punto { fill:#9E1B32; }
+      .etiqueta { font-family:'CMU Serif','Georgia',serif; font-size:15px; fill:#14315D; font-style:italic; }
+      .ejeEtq { font-family:'CMU Serif','Georgia',serif; font-size:16px; fill:#4A4A4A; font-style:italic; }
+    </style>
+  </defs>
+  <rect width="420" height="260" fill="white"/>
+
+  <!-- ejes -->
+  <line x1="30" y1="210" x2="390" y2="210" class="eje"/>
+  <text x="18" y="214" class="ejeEtq">x</text>
+  <text x="396" y="214" class="ejeEtq">y</text>
+
+  <!-- puntos sobre el eje -->
+  <circle cx="80" cy="210" r="3.5" class="punto"/>
+  <text x="68" y="230" class="etiqueta">A&#8320;</text>
+  <circle cx="170" cy="210" r="3.5" class="punto"/>
+  <text x="158" y="230" class="etiqueta">A&#8321;</text>
+  <circle cx="250" cy="210" r="3.5" class="punto"/>
+  <text x="238" y="230" class="etiqueta">A&#8322;</text>
+  <circle cx="330" cy="210" r="3.5" class="punto"/>
+  <text x="312" y="230" class="etiqueta">A&#8345;</text>
+
+  <!-- camino en zigzag -->
+  <polyline points="80,210 170,80 250,80 330,210" class="camino"/>
+  <circle cx="170" cy="80" r="3.5" class="punto"/>
+  <text x="158" y="68" class="etiqueta">A&#8321;'</text>
+  <circle cx="250" cy="80" r="3.5" class="punto"/>
+  <text x="238" y="68" class="etiqueta">A&#8322;'</text>
+</svg>
