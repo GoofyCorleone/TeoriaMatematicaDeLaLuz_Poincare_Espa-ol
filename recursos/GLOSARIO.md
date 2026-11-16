@@ -35,6 +35,10 @@ nota en contrario.
 | mouvement longitudinal / transversal | movimiento longitudinal / transversal | del desplazamiento de las moléculas, no de ondas (cap. I, §34-39); distinto de "vibrations transversales/longitudinales" ya listado arriba, mismo par de adjetivos |
 | déterminant fonctionnel | determinante funcional | término de época para lo que hoy se llama jacobiano; se traduce literal con una nota aclaratoria la primera vez (cap. I, §21) |
 | rayons évanescents | rayos evanescentes | onda cuya amplitud decae exponencialmente al alejarse de un plano, sin propagarse (cap. II, §53) |
+| vibrations quasi-transversales / quasi-longitudinales | vibraciones cuasi-transversales / cuasi-longitudinales | en la teoría de Cauchy de la doble refracción (cap. VI, §159); por la débil birrefringencia, dos ondas tienen vibración casi transversal y la tercera casi longitudinal |
+| cylindre de polarisation | cilindro de polarización | análogo, en la teoría de Neumann, al elipsoide de polarización de Fresnel/Cauchy; degenera a cilindro porque uno de los ejes del elipsoide es nulo (cap. VI, §164) |
+| équations de Lamé | ecuaciones de Lamé | forma de las ecuaciones del movimiento en la teoría de Neumann, introduciendo las cantidades u,v,w (análogas a un rotacional) (cap. VI, §166) |
+| fonctions périodiques | funciones periódicas | en la teoría de M. Sarrau, funciones de las coordenadas cuyo valor medio sobre un período es la cantidad físicamente medible (cap. VI, §167-174) |
 | intensité lumineuse | intensidad luminosa | proporcional al valor medio de $\xi^2+\eta^2$ (cap. II, §56) |
 | différence de marche | diferencia de marcha | $\psi=(2\pi/\lambda)(z'-z)$, desfase entre dos rayos (cap. II, §57) |
 | frange d'interférence | franja de interferencia | |
@@ -62,6 +66,19 @@ nota en contrario.
 | corps amorphe | cuerpo amorfo | moléculas materiales dispuestas irregularmente, sin red cristalina (cap. V, §138) |
 | parallélépipède élémentaire | paralelepípedo elemental | celda del retículo cristalino, según Bravais (cap. V, §131) |
 | entraînement (de la matière par l'éther) | arrastre (de la materia por el éter) | hipótesis de Cauchy: la materia vibra con la misma amplitud que el éter que la rodea (cap. V, §129) |
+| ellipsoïde de polarisation | elipsoide de polarización | superficie $\Pi=1$ cuyos ejes dan las direcciones de vibración posibles y cuya longitud de radio vector da $1/V$ (cap. VI, §146) |
+| ellipsoïde d'élasticité (inverse) | elipsoide de elasticidad (inverso) | de Fresnel; sus ejes son los ejes de elasticidad del medio (cap. VI, §150) |
+| section cyclique | sección cíclica | plano del elipsoide de elasticidad donde la elipse de intersección es un círculo; define los ejes ópticos (cap. VI, §150) |
+| axe optique | eje óptico | dirección de propagación con una sola velocidad (no hay desdoblamiento); los cristales uniaxes tienen uno, los biaxes dos (cap. VI, §150) |
+| cristaux uniaxes / biaxes | cristales uniaxes / biaxes | según tengan uno o dos ejes ópticos |
+| loi de Malus | ley de Malus | citada como verificación experimental de la teoría de Fresnel (cap. VI, §149); no se desarrolla en este libro |
+| milieu incompressible | medio incompresible | $\Theta=0$; una de las dos hipótesis de Fresnel, tratada vía la teoría de los sistemas con ligaduras (cap. VI, §151-152) |
+| ellipsoïde réciproque | elipsoide recíproco | polar recíproca del elipsoide de elasticidad respecto a la esfera unidad; sus ejes dan la construcción geométrica de la superficie de onda (cap. VI, §185) |
+| plan cyclique | plano cíclico | plano cuya sección con el elipsoide de elasticidad o su recíproco es un círculo; mismo concepto que "sección cíclica" (ver arriba), aplicado aquí al elipsoide recíproco (cap. VI, §187) |
+| ombilic (de la surface d'onde) | ombligo (de la superficie de onda) | punto cónico de la superficie de onda, donde hay una infinidad de planos tangentes; 4 reales y 8 imaginarios (cap. VI, §187) |
+| plan tangent singulier | plano tangente singular | plano tangente a la superficie de onda en una infinidad de puntos distintos a la vez, en vez de uno solo (cap. VI, §187) |
+| réfraction conique (intérieure/extérieure) | refracción cónica (interior/exterior) | predicha por Hamilton (1832) a partir de los ombligos, confirmada experimentalmente por Lloyd; no se desarrolla en este libro (cap. VI, §187) |
+| milieu hémièdre / holoèdre | medio hemiedro / holoedro | hemiedro: cristal sin centro de simetría (cap. V, §125); holoedro: con los tres planos de simetría óptica. La doble refracción "ordinaria" se aplica a los holoedros; los hemiedros requieren la teoría del §190 en adelante |
 
 ## Convenciones de notación matemática
 

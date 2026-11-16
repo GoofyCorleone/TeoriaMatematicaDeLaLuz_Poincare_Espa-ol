@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="320" viewBox="0 0 400 320">
+  <defs>
+    <style>
+      .linea { stroke:#14315D; stroke-width:2; }
+      .construccion { stroke:#9E1B32; stroke-width:1.4; stroke-dasharray:5,4; }
+      .puntoAzul { fill:#14315D; }
+      .punto { fill:#9E1B32; }
+      .etiqueta { font-family:'CMU Serif','Georgia',serif; font-size:16px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family:'CMU Serif','Georgia',serif; font-size:16px; fill:#9E1B32; font-style:italic; }
+    </style>
+  </defs>
+  <rect width="400" height="320" fill="white"/>
+
+  <!-- origen O -->
+  <circle cx="90" cy="250" r="3.5" class="puntoAzul"/>
+  <text x="70" y="268" class="etiqueta">O</text>
+
+  <!-- vibracion de Fresnel OF -->
+  <line x1="90" y1="250" x2="280" y2="60" class="linea"/>
+  <circle cx="280" cy="60" r="3.5" class="puntoAzul"/>
+  <text x="288" y="56" class="etiqueta">F</text>
+
+  <!-- pie de la perpendicular Q (hacia OS) -->
+  <circle cx="150" cy="190" r="3" class="puntoAzul"/>
+  <text x="130" y="205" class="etiqueta">Q</text>
+  <line x1="280" y1="60" x2="150" y2="190" class="construccion"/>
+
+  <!-- vibracion de Sarrau OS -->
+  <line x1="90" y1="250" x2="150" y2="190" class="linea"/>
+  <text x="120" y="245" class="etiqueta">S</text>
+
+  <!-- rayo luminoso OM, perpendicular a OS -->
+  <line x1="90" y1="250" x2="330" y2="230" class="linea"/>
+  <circle cx="330" cy="230" r="3.5" class="punto"/>
+  <text x="338" y="226" class="etiquetaRoja">M</text>
+
+  <!-- traza del plano de la onda PM -->
+  <line x1="280" y1="60" x2="330" y2="230" class="construccion"/>
+  <text x="258" y="60" class="etiqueta">P</text>
+</svg>

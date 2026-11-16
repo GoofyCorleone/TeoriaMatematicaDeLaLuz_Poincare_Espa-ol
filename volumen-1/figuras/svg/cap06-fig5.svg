@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="300" viewBox="0 0 360 300">
+  <defs>
+    <style>
+      .elipse { fill:none; stroke:#14315D; stroke-width:2; }
+      .circulo { fill:none; stroke:#9E1B32; stroke-width:1.6; stroke-dasharray:6,4; }
+      .eje { stroke:#4A4A4A; stroke-width:1; }
+      .puntoAzul { fill:#14315D; }
+      .punto { fill:#9E1B32; }
+      .etiqueta { font-family:'CMU Serif','Georgia',serif; font-size:16px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family:'CMU Serif','Georgia',serif; font-size:16px; fill:#9E1B32; font-style:italic; }
+    </style>
+  </defs>
+  <rect width="360" height="300" fill="white"/>
+
+  <!-- centro O -->
+  <circle cx="180" cy="150" r="3" class="puntoAzul"/>
+  <text x="186" y="146" class="etiqueta">O</text>
+
+  <!-- ejes de referencia -->
+  <line x1="40" y1="150" x2="320" y2="150" class="eje"/>
+  <line x1="180" y1="30" x2="180" y2="270" class="eje"/>
+
+  <!-- elipse AB (interseccion del elipsoide reciproco) -->
+  <ellipse cx="180" cy="150" rx="130" ry="70" class="elipse"/>
+  <text x="305" y="146" class="etiqueta">A</text>
+  <text x="180" y="74" class="etiqueta">B</text>
+
+  <!-- circulo punteado, lugar del punto M' -->
+  <circle cx="180" cy="150" r="70" class="circulo"/>
+
+  <!-- punto M sobre la elipse -->
+  <circle cx="92" cy="107" r="3.5" class="punto"/>
+  <text x="68" y="100" class="etiquetaRoja">M</text>
+
+  <!-- punto M' sobre el circulo -->
+  <circle cx="128" cy="99" r="3.5" class="punto"/>
+  <text x="104" y="90" class="etiquetaRoja">M'</text>
+</svg>

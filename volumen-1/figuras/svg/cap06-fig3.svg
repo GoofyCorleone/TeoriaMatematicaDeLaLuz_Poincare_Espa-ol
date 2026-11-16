@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="280" viewBox="0 0 420 280">
+  <defs>
+    <style>
+      .plano { stroke:#14315D; stroke-width:2; }
+      .elemento { stroke:#9E1B32; stroke-width:3; }
+      .rayo { stroke:#9E1B32; stroke-width:1.5; stroke-dasharray:5,4; }
+      .puntoAzul { fill:#14315D; }
+      .punto { fill:#9E1B32; }
+      .etiqueta { font-family:'CMU Serif','Georgia',serif; font-size:16px; fill:#14315D; font-style:italic; }
+      .etiquetaRoja { font-family:'CMU Serif','Georgia',serif; font-size:15px; fill:#9E1B32; font-style:italic; }
+    </style>
+  </defs>
+  <rect width="420" height="280" fill="white"/>
+
+  <!-- plano P -->
+  <line x1="100" y1="30" x2="100" y2="250" class="plano"/>
+  <text x="85" y="24" class="etiqueta">P</text>
+
+  <!-- elemento AB sobre P -->
+  <line x1="100" y1="110" x2="100" y2="150" class="elemento"/>
+  <text x="70" y="108" class="etiquetaRoja">A</text>
+  <text x="70" y="158" class="etiquetaRoja">B</text>
+  <circle cx="100" cy="130" r="3" class="puntoAzul"/>
+  <text x="108" y="126" class="etiqueta">O</text>
+
+  <!-- plano P' -->
+  <line x1="320" y1="30" x2="320" y2="250" class="plano"/>
+  <text x="330" y="24" class="etiqueta">P'</text>
+
+  <!-- elemento A'B' sobre P' -->
+  <line x1="320" y1="90" x2="320" y2="130" class="elemento"/>
+  <text x="330" y="88" class="etiquetaRoja">A'</text>
+  <text x="330" y="138" class="etiquetaRoja">B'</text>
+  <circle cx="320" cy="110" r="3" class="puntoAzul"/>
+  <text x="328" y="106" class="etiqueta">O'</text>
+
+  <!-- rayo luminoso OO' -->
+  <line x1="100" y1="130" x2="320" y2="110" class="rayo"/>
+</svg>
