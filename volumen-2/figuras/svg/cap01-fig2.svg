@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="320" viewBox="0 0 360 320">
+  <defs>
+    <style>
+      .visible { fill:none; stroke:#14315D; stroke-width:2; }
+      .oculta { fill:none; stroke:#14315D; stroke-width:1.4; stroke-dasharray:5,4; }
+      .eje { stroke:#4A4A4A; stroke-width:1.2; }
+      .vertice { fill:#9E1B32; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#14315D; font-style:italic; }
+      .etiquetaR { font-family: 'CMU Serif','Georgia',serif; font-size:15px; fill:#9E1B32; font-style:italic; }
+      .flecha { stroke:#9E1B32; stroke-width:1.8; fill:none; marker-end:url(#punta); }
+    </style>
+    <marker id="punta" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#9E1B32"/>
+    </marker>
+  </defs>
+  <rect width="360" height="320" fill="white"/>
+
+  <g transform="translate(110,70)">
+    <!-- caras ocultas -->
+    <line x1="40" y1="20" x2="120" y2="20" class="oculta"/>
+    <line x1="40" y1="20" x2="40" y2="100" class="oculta"/>
+    <line x1="40" y1="100" x2="0" y2="140" class="oculta"/>
+    <line x1="40" y1="100" x2="120" y2="100" class="oculta"/>
+
+    <!-- caras visibles -->
+    <line x1="0" y1="60" x2="80" y2="60" class="visible"/>
+    <line x1="0" y1="60" x2="0" y2="140" class="visible"/>
+    <line x1="80" y1="60" x2="80" y2="140" class="visible"/>
+    <line x1="0" y1="140" x2="80" y2="140" class="visible"/>
+    <line x1="0" y1="60" x2="40" y2="20" class="visible"/>
+    <line x1="80" y1="60" x2="120" y2="20" class="visible"/>
+    <line x1="40" y1="20" x2="120" y2="20" class="visible"/>
+    <line x1="80" y1="140" x2="120" y2="100" class="visible"/>
+    <line x1="120" y1="20" x2="120" y2="100" class="visible"/>
+
+    <circle cx="0" cy="60" r="3" class="vertice"/>
+    <circle cx="80" cy="60" r="3" class="vertice"/>
+    <circle cx="40" cy="20" r="3" class="vertice"/>
+    <circle cx="120" cy="20" r="3" class="vertice"/>
+    <circle cx="0" cy="140" r="3" class="vertice"/>
+    <circle cx="80" cy="140" r="3" class="vertice"/>
+    <circle cx="40" cy="100" r="3" class="vertice"/>
+    <circle cx="120" cy="100" r="3" class="vertice"/>
+
+    <text x="-14" y="56" class="etiqueta">A</text>
+    <text x="86" y="56" class="etiqueta">B</text>
+    <text x="30" y="14" class="etiqueta">C</text>
+    <text x="126" y="14" class="etiqueta">D</text>
+    <text x="-14" y="156" class="etiqueta">E</text>
+    <text x="86" y="156" class="etiqueta">F</text>
+    <text x="22" y="112" class="etiqueta">G</text>
+    <text x="126" y="112" class="etiqueta">H</text>
+
+    <!-- ejes de coordenadas, origen en O cerca de E -->
+    <line x1="0" y1="140" x2="-70" y2="190" class="eje"/>
+    <text x="-82" y="200" class="etiqueta">y</text>
+    <line x1="0" y1="140" x2="0" y2="230" class="eje"/>
+    <text x="-6" y="246" class="etiqueta">z</text>
+    <line x1="0" y1="140" x2="160" y2="140" class="eje"/>
+    <text x="166" y="146" class="etiqueta">x</text>
+    <text x="4" y="156" class="etiqueta">O</text>
+
+    <!-- flecha de la presion Pxx sobre la cara ACEG -->
+    <line x1="-60" y1="90" x2="-2" y2="95" class="flecha"/>
+    <text x="-110" y="86" class="etiquetaR">P<tspan baseline-shift="sub" font-size="11">xx</tspan></text>
+  </g>
+
+  <text x="180" y="300" font-family="'CMU Serif','Georgia',serif" font-size="15" fill="#14315D" text-anchor="middle">Fig. 2</text>
+</svg>

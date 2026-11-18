@@ -12,7 +12,7 @@ nota en contrario.
 | mouvement vibratoire | movimiento vibratorio | |
 | fonction des forces | función de fuerzas | notación U en el original |
 | dilatation (linéaire/angulaire/cubique) | dilatación (lineal/angular/cúbica) | la dilatación cúbica es la función Θ, coeficiente de cambio relativo de volumen (cap. I, §21) |
-| force vive | fuerza viva | Σmv² en la terminología de 1889 — el DOBLE de la energía cinética moderna (no simplemente "energía cinética"); se traduce literal y se aclara en nota al pie la primera vez que aparece (cap. II, §45) |
+| force vive | fuerza viva | Σmv² en la terminología de 1889 — el DOBLE de la energía cinética moderna (no simplemente "energía cinética"); se traduce literal y se aclara en nota al pie la primera vez que aparece (Vol. I, cap. II, §45). **Ojo:** el propio Poincaré no es consistente entre volúmenes — en el Vol. II, cap. I, §2, identifica expresamente "fuerza viva" con T=Σmv²/2 (la energía cinética moderna, con el ½). Se traduce literal y se conserva tal como él la usa en cada pasaje, aclarando en nota al pie cuál de las dos convenciones aplica si no es obvio por contexto. |
 | onde plane | onda plana | |
 | rayon lumineux | rayo luminoso | |
 | vibrations transversales / longitudinales | vibraciones transversales / longitudinales | |

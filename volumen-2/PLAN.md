@@ -41,9 +41,13 @@ verificarlas y corregirlas al empezar cada capítulo.
 Páginas impresas y tamaño aproximado de cada capítulo:
 
 0. **Frente de materia** — Portada, Introducción (sin Prefacio separado).
-1. **Teoría elástica de la luz** — impresas 1-18 (≈18 pp.). Movimiento del
-   éter, fuerza viva, energía potencial, ecuaciones del movimiento, ondas
-   planas, intensidad luminosa.
+1. ✅ **Teoría elástica de la luz** — impresas 1-18 (≈18 pp., offset +16
+   confirmado en todo el capítulo). Movimiento del éter, fuerza viva,
+   energía potencial, ecuaciones del movimiento, ondas planas, intensidad
+   luminosa. Traducido, verificado ecuación por ecuación (un error de
+   traducción corregido, siete erratas del propio original de 1892
+   documentadas con nota), 3 figuras. Sin caja `enunciado` — es un
+   recapitulado sin principio nuevo con nombre propio.
 2. **Teoría electromagnética de la luz. Comparación con la teoría
    elástica** — impresas 19-33 (≈15 pp.). Ecuaciones de Maxwell, ecuaciones
    de Hertz, comparación, propagación de ondas planas.

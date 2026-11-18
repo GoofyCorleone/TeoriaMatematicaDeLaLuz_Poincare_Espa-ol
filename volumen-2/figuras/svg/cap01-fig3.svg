@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200">
+  <defs>
+    <style>
+      .contorno { fill:none; stroke:#14315D; stroke-width:2; }
+      .centro { fill:#9E1B32; }
+      .etiqueta { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#14315D; font-style:italic; }
+      .etiquetaR { font-family: 'CMU Serif','Georgia',serif; font-size:16px; fill:#9E1B32; font-style:italic; }
+      .pie { font-family: 'CMU Serif','Georgia',serif; font-size:15px; fill:#14315D; }
+    </style>
+  </defs>
+  <rect width="320" height="200" fill="white"/>
+
+  <!-- esfera O sin deformar -->
+  <circle cx="90" cy="90" r="45" class="contorno"/>
+  <circle cx="90" cy="90" r="2.5" class="centro"/>
+  <text x="80" y="115" class="etiqueta">O</text>
+
+  <!-- elipsoide O' deformado, con el punto o (centro de gravedad desplazado) -->
+  <ellipse cx="230" cy="90" rx="55" ry="32" class="contorno" transform="rotate(-12 230 90)"/>
+  <circle cx="218" cy="86" r="2.5" class="centro"/>
+  <text x="222" y="80" class="etiquetaR">o</text>
+  <text x="248" y="112" class="etiqueta">O'</text>
+
+  <text x="160" y="175" class="pie" text-anchor="middle">Fig. 3</text>
+</svg>
