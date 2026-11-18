@@ -95,6 +95,11 @@ nota en contrario.
 | coefficient de Fresnel | coeficiente de arrastre de Fresnel | el factor $(1-1/n^2)$ en la velocidad de arrastre del éter (cap. VIII, §239) |
 | milieu en mouvement | medio en movimiento | medio material animado de una velocidad de traslación $v$, distinto del medio en reposo (cap. VIII, §236 en adelante) |
 | vitesse d'entraînement | velocidad de arrastre | |
+| courant de déplacement / de conduction | corriente de desplazamiento / de conducción | teoría de Maxwell: la de desplazamiento existe incluso en el vacío y en los dieléctricos; $4\pi f=\mathrm{K}\mathrm{X}$ (Vol. II, cap. II, §13) |
+| potentiel vecteur | potencial vector | $\mathrm{F},\mathrm{G},\mathrm{H}$ de Maxwell; se componen en redonda, como las demás cantidades nombradas de esta teoría ($\mathrm{K}$, $\mathrm{X},\mathrm{Y},\mathrm{Z}$, $\mathrm{C}$) (Vol. II, cap. II, §13) |
+| pouvoir inducteur spécifique | poder inductor específico | $\mathrm{K}$, análogo dieléctrico de la conductibilidad $\mathrm{C}$ (Vol. II, cap. II, §13) |
+| loi de Biot et Savart | ley de Biot y Savart | acción magnética de una corriente rectilínea sobre un polo magnético (Vol. II, cap. II, §19) |
+| coefficient de perméabilité magnétique | coeficiente de permeabilidad magnética | $\mu$; en el vacío $\mu=1$ (Vol. II, cap. II, §12) |
 
 ## Términos y convenciones fijados en la revisión global (Etapa 3)
 

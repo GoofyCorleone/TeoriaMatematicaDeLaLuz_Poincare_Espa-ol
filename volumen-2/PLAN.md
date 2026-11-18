@@ -48,9 +48,16 @@ Páginas impresas y tamaño aproximado de cada capítulo:
    traducción corregido, siete erratas del propio original de 1892
    documentadas con nota), 3 figuras. Sin caja `enunciado` — es un
    recapitulado sin principio nuevo con nombre propio.
-2. **Teoría electromagnética de la luz. Comparación con la teoría
-   elástica** — impresas 19-33 (≈15 pp.). Ecuaciones de Maxwell, ecuaciones
-   de Hertz, comparación, propagación de ondas planas.
+2. ✅ **Teoría electromagnética de la luz. Comparación de esta teoría con
+   la teoría elástica** — impresas 19-33 (≈15 pp., offset +16 confirmado).
+   Ecuaciones de Maxwell, ecuaciones de Hertz, comparación, propagación de
+   ondas planas. Traducido y verificado: 2 errores de traducción
+   corregidos, numeración de ecuaciones restituida (faltaban los `\tag`),
+   y 7 erratas del propio original de 1892 documentadas con nota (el
+   primer intento de verificación no las había visto todas — confirma la
+   importancia de la revisión al 100%, no solo de los pasajes "dudosos").
+   1 figura; sin caja `enunciado`. "Energía cinética" aquí usa la
+   convención con ½, consistente con el Capítulo I de este volumen.
 3. **Integración de las ecuaciones: caso particular de las ondas planas**
    — impresas 34-47 (≈14 pp.). Ondas evanescentes, intensidad.
 4. **Estudio de las interferencias** — impresas 48-64 (≈17 pp.). Teoría
