@@ -8,18 +8,18 @@
 
 \noindent\textbf{121.} Para hallar las ecuaciones
 \begin{equation}
--\rho\frac{d^2\xi}{dt^2}=\sum\frac{d}{dx}\cdot\frac{dW_2}{d\xi'_x},\qquad
--\rho\frac{d^2\eta}{dt^2}=\sum\frac{d}{dx}\cdot\frac{dW_2}{d\eta'_x},\qquad
--\rho\frac{d^2\zeta}{dt^2}=\sum\frac{d}{dx}\cdot\frac{dW_2}{d\zeta'_x}
+-\rho\frac{d^2\xi}{dt^2}=\sum\frac{d}{dx}\cdot\frac{d\mathrm{W}_2}{d\xi'_x},\qquad
+-\rho\frac{d^2\eta}{dt^2}=\sum\frac{d}{dx}\cdot\frac{d\mathrm{W}_2}{d\eta'_x},\qquad
+-\rho\frac{d^2\zeta}{dt^2}=\sum\frac{d}{dx}\cdot\frac{d\mathrm{W}_2}{d\zeta'_x}
 \tag{1}
 \end{equation}
 del movimiento de una molécula en un medio elástico (§32), admitimos (§14)
-que las cantidades $D x,Dy,Dz$ eran del orden del radio de actividad
-molecular, por lo que podíamos, en las expresiones de $D\xi,D\eta,D\zeta$,
-despreciar los términos que contienen $Dx^2,Dy^2,Dz^2$. De ello resultaba
-que $D\xi,D\eta,D\zeta$ eran funciones lineales de las nueve derivadas
+que las cantidades $\mathrm{D}x,\mathrm{D}y,\mathrm{D}z$ eran del orden del radio de actividad
+molecular, por lo que podíamos, en las expresiones de $\mathrm{D}\xi,\mathrm{D}\eta,\mathrm{D}\zeta$,
+despreciar los términos que contienen $\mathrm{D}x^2,\mathrm{D}y^2,\mathrm{D}z^2$. De ello resultaba
+que $\mathrm{D}\xi,\mathrm{D}\eta,\mathrm{D}\zeta$ eran funciones lineales de las nueve derivadas
 parciales de $\xi,\eta,\zeta$ respecto de las variables $x,y,z$, y que
-$W_2$ era una función homogénea y de segundo orden respecto de esas nueve
+$\mathrm{W}_2$ era una función homogénea y de segundo orden respecto de esas nueve
 derivadas.
 
 Buscamos luego (§41) en qué se convertían las ecuaciones (1) en el caso de
@@ -32,28 +32,30 @@ isótropo distinto del éter en el vacío, su velocidad depende de su longitud
 de onda $\lambda$; nos vemos, pues, conducidos a pensar que la hipótesis
 del §14, que no está justificada por ninguna consideración teórica, debe
 rechazarse cuando consideramos la propagación de la luz en un medio
-ponderable. Si abandonamos esta hipótesis, las cantidades $D\xi,D\eta,D\zeta$
+ponderable. Si abandonamos esta hipótesis, las cantidades $\mathrm{D}\xi,\mathrm{D}\eta,\mathrm{D}\zeta$
 contendrán las derivadas de los diversos órdenes de $\xi,\eta,\zeta$
-respecto de $x,y,z$, y, por consiguiente, la función $W_2$, que es
-homogénea y de segundo grado (§13) en $D\xi,D\eta,D\zeta$, será homogénea y
+respecto de $x,y,z$, y, por consiguiente, la función $\mathrm{W}_2$, que es
+homogénea y de segundo grado (§13) en $\mathrm{D}\xi,\mathrm{D}\eta,\mathrm{D}\zeta$, será homogénea y
 de segundo grado respecto de las derivadas parciales de los diversos
 órdenes de $\xi,\eta,\zeta$. Vamos a mostrar que las ecuaciones del
-movimiento de una molécula, tomando para $W_2$ una función de esta clase,
+movimiento de una molécula, tomando para $\mathrm{W}_2$ una función de esta clase,
 explican el fenómeno de la dispersión y el de la polarización rotatoria.
 
-\noindent\textbf{122.} Designando por $U$ la función de fuerzas relativa a
+\noindent\textbf{122.} Designando por $\mathrm{U}$ la función de fuerzas relativa a
 las fuerzas exteriores e interiores que se ejercen sobre las moléculas de
 un volumen $R$ limitado por una superficie $S$ (figura~\ref{fig:cap5-1}),
-hallamos (§27), por la aplicación del principio de d'Alembert y del
-principio de las velocidades virtuales, la ecuación
+hallamos (§29),\footnote{El original remite aquí al §27; la ecuación que
+sigue, obtenida por el principio de d'Alembert y el de las velocidades
+virtuales, es la (33) del §29.~(N.~del T.)} por la aplicación del principio de
+d'Alembert y del principio de las velocidades virtuales, la ecuación
 \begin{equation}
-\delta U - \int \rho\,d\tau\left(\frac{d^2\xi}{dt^2}\delta\xi
+\delta \mathrm{U} - \int \rho\,d\tau\left(\frac{d^2\xi}{dt^2}\delta\xi
 +\frac{d^2\eta}{dt^2}\delta\eta+\frac{d^2\zeta}{dt^2}\delta\zeta\right)=0,
 \tag{2}
 \end{equation}
 que debe satisfacerse cualesquiera que sean $\delta\xi,\delta\eta,\delta\zeta$.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=0.45\textwidth]{figuras/pdf/cap05-fig1.pdf}
 \caption{Superficie $S$ que limita un volumen $R$, con el medio exterior
@@ -61,17 +63,17 @@ $R'$.}
 \label{fig:cap5-1}
 \end{figure}
 
-La parte de la función $U$ que corresponde a las fuerzas interiores es
-$\int \delta W\,d\tau$, y la relativa a las fuerzas exteriores que se
+La parte de la función $\mathrm{U}$ que corresponde a las fuerzas interiores es
+$\int \delta \mathrm{W}\,d\tau$, y la relativa a las fuerzas exteriores que se
 ejercen sobre la superficie de separación $S$ es
 $\int(\mathrm P_x\delta\xi+\mathrm P_y\delta\eta+\mathrm P_z\delta\zeta)\,d\omega$,
 designando $\mathrm P_x,\mathrm P_y,\mathrm P_z$ las componentes, según los
 tres ejes, de la presión que se ejerce sobre el elemento de superficie
-$d\omega$. Sustituyendo $\delta U$ por la suma de estas dos cantidades, la
+$d\omega$. Sustituyendo $\delta \mathrm{U}$ por la suma de estas dos cantidades, la
 ecuación (2) se convierte en
 \[
 \int(\mathrm P_x\delta\xi+\mathrm P_y\delta\eta+\mathrm P_z\delta\zeta)\,d\omega
-+\int\delta W\,d\tau
++\int\delta \mathrm{W}\,d\tau
 -\int\rho\,d\tau\left(\frac{d^2\xi}{dt^2}\delta\xi+\frac{d^2\eta}{dt^2}\delta\eta
 +\frac{d^2\zeta}{dt^2}\delta\zeta\right)=0.
 \]
@@ -79,52 +81,52 @@ Como esta ecuación debe satisfacerse cualesquiera que sean
 $\delta\xi,\delta\eta,\delta\zeta$, podemos, en particular, suponer
 $\delta\eta=\delta\zeta=0$, y tenemos la igualdad
 \begin{equation}
-\int \mathrm P_x\delta\xi\,d\omega + \int\delta W\,d\tau
+\int \mathrm P_x\delta\xi\,d\omega + \int\delta \mathrm{W}\,d\tau
 -\int\frac{d^2\xi}{dt^2}\delta\xi\,\rho\,d\tau=0,
 \tag{3}
 \end{equation}
 que deberá cumplirse cualquiera que sea $\delta\xi$.
 
 \noindent\textbf{123.} Se trata de transformar el segundo término de esta
-igualdad. La función $W$ es, en general, una función de las derivadas
+igualdad. La función $\mathrm{W}$ es, en general, una función de las derivadas
 parciales de los diversos órdenes de $\xi,\eta,\zeta$. En un desplazamiento
 virtual cualquiera dado al sistema, cada una de estas derivadas varía,
 pero, en el caso en que se tiene, como hemos supuesto, $\delta\eta=\delta\zeta=0$,
 solo cambian de valor las derivadas parciales de $\xi$. Por consiguiente,
-el incremento $\delta W$ de la función $W$ dependerá únicamente de los
+el incremento $\delta \mathrm{W}$ de la función $\mathrm{W}$ dependerá únicamente de los
 incrementos de las distintas derivadas parciales de $\xi$. Con el fin de
 simplificar los cálculos, admitiremos que las únicas derivadas parciales de
-$\xi$ que entran en $W$ son $d\xi/dx$ y $d^2\xi/dx^2$, derivadas que
+$\xi$ que entran en $\mathrm{W}$ son $d\xi/dx$ y $d^2\xi/dx^2$, derivadas que
 podremos representar sin ambigüedad por $\xi'$ y $\xi''$. Tenemos
 entonces,
 \[
-\delta W = \frac{dW}{d\xi'}\delta\xi' + \frac{dW}{d\xi''}\delta\xi'',
+\delta \mathrm{W} = \frac{d\mathrm{W}}{d\xi'}\delta\xi' + \frac{d\mathrm{W}}{d\xi''}\delta\xi'',
 \]
 y, por consiguiente,
 \[
-\int\delta W\,d\tau = \int\frac{dW}{d\xi'}\delta\xi'\,d\tau
-+\int\frac{dW}{d\xi''}\delta\xi''\,d\tau.
+\int\delta \mathrm{W}\,d\tau = \int\frac{d\mathrm{W}}{d\xi'}\delta\xi'\,d\tau
++\int\frac{d\mathrm{W}}{d\xi''}\delta\xi''\,d\tau.
 \]
 Se sabe, y recordamos esta propiedad en el §30, que se tiene
 \begin{equation}
-\int\frac{dW}{d\xi'}\delta\xi'\,d\tau
-=\int\alpha\frac{dW}{d\xi'}\delta\xi\,d\omega
--\int\delta\xi\,\frac{d}{dx}\cdot\frac{dW}{d\xi'}\,d\tau,
+\int\frac{d\mathrm{W}}{d\xi'}\delta\xi'\,d\tau
+=\int\alpha\frac{d\mathrm{W}}{d\xi'}\delta\xi\,d\omega
+-\int\delta\xi\,\frac{d}{dx}\cdot\frac{d\mathrm{W}}{d\xi'}\,d\tau,
 \tag{4}
 \end{equation}
 y
 \[
-\int\frac{dW}{d\xi''}\delta\xi''\,d\tau
-=\int\alpha\frac{dW}{d\xi''}\delta\xi'\,d\omega
--\int\delta\xi'\,\frac{d}{dx}\cdot\frac{dW}{d\xi''}\,d\tau.
+\int\frac{d\mathrm{W}}{d\xi''}\delta\xi''\,d\tau
+=\int\alpha\frac{d\mathrm{W}}{d\xi''}\delta\xi'\,d\omega
+-\int\delta\xi'\,\frac{d}{dx}\cdot\frac{d\mathrm{W}}{d\xi''}\,d\tau.
 \]
 Esta última igualdad se convierte, al hacer sufrir a la segunda integral
 del segundo miembro una transformación análoga, en
 \begin{equation}
-\int\frac{dW}{d\xi''}\delta\xi''\,d\tau
-=\int\alpha\frac{dW}{d\xi''}\delta\xi'\,d\omega
--\int\alpha\delta\xi\,\frac{d}{dx}\cdot\frac{dW}{d\xi''}\,d\omega
-+\int\delta\xi\,\frac{d^2}{dx^2}\cdot\frac{dW}{d\xi''}\,d\tau.
+\int\frac{d\mathrm{W}}{d\xi''}\delta\xi''\,d\tau
+=\int\alpha\frac{d\mathrm{W}}{d\xi''}\delta\xi'\,d\omega
+-\int\alpha\delta\xi\,\frac{d}{dx}\cdot\frac{d\mathrm{W}}{d\xi''}\,d\omega
++\int\delta\xi\,\frac{d^2}{dx^2}\cdot\frac{d\mathrm{W}}{d\xi''}\,d\tau.
 \tag{5}
 \end{equation}
 Sumando los segundos miembros de las igualdades (4) y (5), y sustituyendo
@@ -133,31 +135,31 @@ contiene integrales extendidas a la superficie $S$ e integrales extendidas
 al volumen $R$. Representando la suma de las integrales dobles por $I$, la
 ecuación (3) se convierte en
 \[
-I - \int\left(\frac{d}{dx}\cdot\frac{dW}{d\xi'}
--\frac{d^2}{dx^2}\cdot\frac{dW}{d\xi''}+\rho\frac{d^2\xi}{dt^2}\right)\delta\xi\,d\tau=0,
+I - \int\left(\frac{d}{dx}\cdot\frac{d\mathrm{W}}{d\xi'}
+-\frac{d^2}{dx^2}\cdot\frac{d\mathrm{W}}{d\xi''}+\rho\frac{d^2\xi}{dt^2}\right)\delta\xi\,d\tau=0,
 \]
 y, como debe satisfacerse cualquiera que sea $\delta\xi$, el elemento
 diferencial colocado bajo el signo de integración extendido al volumen debe
 ser nulo. Tendremos, pues,
 \[
-\rho\frac{d^2\xi}{dt^2} = -\frac{d}{dx}\cdot\frac{dW}{d\xi'}
-+\frac{d^2}{dx^2}\cdot\frac{dW}{d\xi''}.
+\rho\frac{d^2\xi}{dt^2} = -\frac{d}{dx}\cdot\frac{d\mathrm{W}}{d\xi'}
++\frac{d^2}{dx^2}\cdot\frac{d\mathrm{W}}{d\xi''}.
 \]
-Esta ecuación se convierte, designando por $W_1$ el término de primer
-grado y por $W_2$ el término de segundo grado en el desarrollo de $W$
-según las potencias crecientes de $D\xi,D\eta,D\zeta$, en
+Esta ecuación se convierte, designando por $\mathrm{W}_1$ el término de primer
+grado y por $\mathrm{W}_2$ el término de segundo grado en el desarrollo de $\mathrm{W}$
+según las potencias crecientes de $\mathrm{D}\xi,\mathrm{D}\eta,\mathrm{D}\zeta$, en
 \[
-\rho\frac{d^2\xi}{dt^2} = -\frac{d}{dx}\cdot\frac{dW_1}{d\xi'}
-+\frac{d^2}{dx^2}\cdot\frac{dW_1}{d\xi''}
--\frac{d}{dx}\cdot\frac{dW_2}{d\xi'}+\frac{d^2}{dx^2}\cdot\frac{dW_2}{d\xi''}.
+\rho\frac{d^2\xi}{dt^2} = -\frac{d}{dx}\cdot\frac{d\mathrm{W}_1}{d\xi'}
++\frac{d^2}{dx^2}\cdot\frac{d\mathrm{W}_1}{d\xi''}
+-\frac{d}{dx}\cdot\frac{d\mathrm{W}_2}{d\xi'}+\frac{d^2}{dx^2}\cdot\frac{d\mathrm{W}_2}{d\xi''}.
 \]
-Pero, siendo $D\xi,D\eta,D\zeta$ de primer grado (§14) respecto de las
-derivadas parciales de $\xi,\eta,\zeta$, lo mismo ocurrirá con $W_1$; las
+Pero, siendo $\mathrm{D}\xi,\mathrm{D}\eta,\mathrm{D}\zeta$ de primer grado (§14) respecto de las
+derivadas parciales de $\xi,\eta,\zeta$, lo mismo ocurrirá con $\mathrm{W}_1$; las
 derivadas de esta función respecto de $\xi'$ y $\xi''$ serán constantes, y
 la ecuación anterior se reduce a
 \[
-\rho\frac{d^2\xi}{dt^2} = -\frac{d}{dx}\cdot\frac{dW_2}{d\xi'}
-+\frac{d^2}{dx^2}\cdot\frac{dW_2}{d\xi''}.
+\rho\frac{d^2\xi}{dt^2} = -\frac{d}{dx}\cdot\frac{d\mathrm{W}_2}{d\xi'}
++\frac{d^2}{dx^2}\cdot\frac{d\mathrm{W}_2}{d\xi''}.
 \]
 Esta es la primera de las ecuaciones del movimiento de una molécula; las
 otras dos se obtendrían de la misma manera.
@@ -179,29 +181,29 @@ siendo $\mathrm P,\mathrm Q,\mathrm R$ polinomios lineales respecto de las
 derivadas de los diversos órdenes de $\xi,\eta,\zeta$, y formados de la
 manera siguiente:
 
-Para formar $\mathrm P$, se diferenciará $W_2$ respecto de cada una de las
+Para formar $\mathrm P$, se diferenciará $\mathrm{W}_2$ respecto de cada una de las
 derivadas parciales de $\xi$ que figuran en ella. Se diferenciará la
-derivada de $W_2$ así obtenida, respecto de $x$, $y$ y $z$, de la misma
+derivada de $\mathrm{W}_2$ así obtenida, respecto de $x$, $y$ y $z$, de la misma
 manera que se hizo con la derivada parcial de $\xi$ que figura en ella. Por
 ejemplo, se diferenciará
-\[
-\frac{dW_2}{d\xi'_x}\ \text{una vez respecto de }x,\qquad
-\frac{dW_2}{d\xi''_{xx}}\ \text{dos veces respecto de }x,\qquad
-\frac{dW_2}{d\xi''_{xy}}\ \text{una vez respecto de }x\text{ y una respecto de }y,\ \text{etc.}
-\]
+\begin{gather*}
+\frac{d\mathrm{W}_2}{d\xi'_x}\ \text{una vez respecto de }x,\qquad
+\frac{d\mathrm{W}_2}{d\xi''_{xx}}\ \text{dos veces respecto de }x,\\
+\frac{d\mathrm{W}_2}{d\xi''_{xy}}\ \text{una vez respecto de }x\text{ y una respecto de }y,\ \text{etc.}
+\end{gather*}
 Se sumarán luego todas las derivadas así obtenidas, tras haber afectado del
 signo $+$ las derivadas de orden par y del signo $-$ las derivadas de orden
 impar. Tendremos, pues,
-\[
-\mathrm P = -\frac{d}{dx}\frac{dW_2}{d\xi'_x}-\frac{d}{dy}\frac{dW_2}{d\xi'_y}
--\frac{d}{dz}\frac{dW_2}{d\xi'_z}
-+\frac{d^2}{dx^2}\frac{dW_2}{d\xi''_{xx}}+\cdots
-+\frac{d^2}{dxdy}\frac{dW_2}{d\xi''_{xy}}+\cdots
--\frac{d^3}{dx^3}\frac{dW_2}{d\xi'''_{xxx}}-\cdots
-\]
+\begin{multline*}
+\mathrm P = -\frac{d}{dx}\frac{d\mathrm{W}_2}{d\xi'_x}-\frac{d}{dy}\frac{d\mathrm{W}_2}{d\xi'_y}
+-\frac{d}{dz}\frac{d\mathrm{W}_2}{d\xi'_z}\\
++\frac{d^2}{dx^2}\frac{d\mathrm{W}_2}{d\xi''_{xx}}+\cdots
++\frac{d^2}{dxdy}\frac{d\mathrm{W}_2}{d\xi''_{xy}}+\cdots
+-\frac{d^3}{dx^3}\frac{d\mathrm{W}_2}{d\xi'''_{xxx}}-\cdots
+\end{multline*}
 
 Se formaría el polinomio $\mathrm Q$ de la misma manera, diferenciando
-$W_2$ respecto de las derivadas parciales de $\eta$.
+$\mathrm{W}_2$ respecto de las derivadas parciales de $\eta$.
 
 En algunos casos particulares, la expresión del polinomio $\mathrm P$ se
 simplifica. Así, si el medio elástico es isótropo, las derivadas de orden
@@ -247,14 +249,14 @@ que de $z$ y del tiempo $t$, y, por consiguiente, las derivadas parciales
 de los diversos órdenes de $\xi,\eta,\zeta$ respecto de $x$ y de $y$ serán
 nulas. Además, como las vibraciones son transversales, la condición de
 transversalidad, $\Theta=0$, exige que se tenga idénticamente $\zeta'_z=0$.
-Por consiguiente, $W_2$ será una función homogénea y de segundo grado de
+Por consiguiente, $\mathrm{W}_2$ será una función homogénea y de segundo grado de
 las derivadas parciales de primer orden $\xi'_z,\eta'_z$ y de las derivadas
 parciales de órdenes superiores de $\xi,\eta,\zeta$ respecto de $z$.
-Designemos por $W_2^1$ el conjunto de los términos de $W_2$ que son
+Designemos por $\mathrm{W}_2^1$ el conjunto de los términos de $\mathrm{W}_2$ que son
 homogéneos respecto de las derivadas parciales de primer orden y, para
 simplificar\footnote{Véase más adelante el capítulo relativo a la doble
 refracción en los medios hemiédricos, donde volvemos sobre esta cuestión
-con más detalle.}, supongamos que los demás términos de $W_2$ sean nulos,
+con más detalle.~(N.~del T.)}, supongamos que los demás términos de $\mathrm{W}_2$ sean nulos,
 con excepción del siguiente:
 \[
 a\,\frac{d\eta}{dz}\,\frac{d^2\xi}{dz^2}.
@@ -263,12 +265,12 @@ a\,\frac{d\eta}{dz}\,\frac{d^2\xi}{dz^2}.
 Aplicando la regla que dimos (§124) para la formación de los segundos
 miembros de las ecuaciones del movimiento, obtenemos para esas ecuaciones:
 \[
-\rho\frac{d^2\xi}{dt^2}=-\sum\frac{d}{dx}\frac{dW_2^1}{d\xi'_x}+a\frac{d^3\eta}{dz^3},
+\rho\frac{d^2\xi}{dt^2}=-\sum\frac{d}{dx}\frac{d\mathrm{W}_2^1}{d\xi'_x}+a\frac{d^3\eta}{dz^3},
 \qquad
-\rho\frac{d^2\eta}{dt^2}=-\sum\frac{d}{dx}\frac{dW_2^1}{d\eta'_x}-a\frac{d^3\xi}{dz^3}.
+\rho\frac{d^2\eta}{dt^2}=-\sum\frac{d}{dx}\frac{d\mathrm{W}_2^1}{d\eta'_x}-a\frac{d^3\xi}{dz^3}.
 \]
 
-Los términos de los segundos miembros provenientes de $W_2^1$ serán las
+Los términos de los segundos miembros provenientes de $\mathrm{W}_2^1$ serán las
 derivadas parciales de segundo orden de $\xi,\eta,\zeta$, multiplicadas por
 un coeficiente constante. Admitamos que, en la primera ecuación, estos
 términos se reducen a $d^2\xi/dz^2$ y que, en la segunda, se reducen a
@@ -286,7 +288,7 @@ Busquemos satisfacer estas ecuaciones\footnote{A
 partir de aquí, el original reinicia con frecuencia su numeración local de
 ecuaciones varias veces dentro de este mismo capítulo (como ya ocurrió en
 los capítulos II y IV); conservamos fielmente la numeración de Poincaré en
-cada caso, sin forzar una numeración continua.} poniendo
+cada caso, sin forzar una numeración continua.~(N.~del T.)} poniendo
 \[
 \xi=\mathrm Ae^{\frac{2i\pi}{\lambda}(z-Vt)},\qquad
 \eta=\mathrm Be^{\frac{2i\pi}{\lambda}(z-Vt)}.
@@ -371,7 +373,7 @@ $\rho\mathrm V^2-1=+a\,2\pi/\lambda$ y $\mathrm A=-\mathrm Bi$ da
 $\rho\mathrm V^2-1=-a\,2\pi/\lambda$, es decir, el orden inverso al que
 indica el original. La inversión solo intercambia los papeles de
 $\mathrm V_1$ y $\mathrm V_2$ y no afecta en nada a lo que sigue;
-conservamos el orden de Poincaré.}
+conservamos el orden de Poincaré.~(N.~del T.)}
 \[
 \rho\mathrm V^2-1=-a\,\frac{2\pi}{\lambda},\qquad
 \rho\mathrm V^2-1=a\,\frac{2\pi}{\lambda};
@@ -457,7 +459,7 @@ disoluciones.} — Existe cierto número de sustancias cristalizadas
 que presentan, aunque en grado menor que el cuarzo, la propiedad de hacer
 girar el plano de polarización de la luz. Como, hasta ahora, todos los
 cristales para los que se ha constatado esta propiedad son cristales
-hemiédricos, se les puede aplicar la explicación que hemos dado del poder
+hemiedros, se les puede aplicar la explicación que hemos dado del poder
 rotatorio del cuarzo. Pero se conoce un gran número de sustancias orgánicas
 cuyas disoluciones gozan del poder rotatorio, y, en ese caso, la
 explicación del fenómeno se vuelve más difícil: los líquidos se comportan
@@ -590,7 +592,7 @@ hipótesis pueda parecer poco verosímil, no hay que apresurarse a
 rechazarla; así es como un cuerpo que flota en la superficie de un líquido
 participa, por arrastre, de los movimientos que se imprimen al líquido. En
 todo caso, es esta hipótesis la que condujo a Cauchy al análisis del
-n.\textsuperscript{o}~128, cuyo acuerdo con la experiencia hemos visto.
+§128, cuyo acuerdo con la experiencia hemos visto.
 
 Después de Cauchy, Briot retomó el estudio de la dispersión. En una
 primera teoría, admitió el arrastre de la materia por el éter, pero supuso
@@ -617,7 +619,7 @@ nombre de teoría de Briot a la explicación que vamos a desarrollar, porque
 Briot fue el primero que intentó fundar una teoría completa de la
 dispersión sobre la hipótesis de la periodicidad del éter. Pero el modo de
 exposición que seguiremos difiere por completo del de Briot y se acerca
-bastante más a las ideas de M. Sarrau.} — En esta teoría, Briot, al
+bastante más a las ideas de M.~Sarrau.~(N.~del T.)} — En esta teoría, Briot, al
 considerar los medios ponderables como formados de moléculas materiales
 separadas unas de otras, admite que la densidad del éter contenido en ese
 medio es tanto mayor cuanto más próxima está la molécula de éter de una
@@ -628,9 +630,9 @@ Hasta aquí, hemos supuesto constante la densidad del éter, y en el §33
 mostramos que, en esa hipótesis y despreciando las cantidades del orden
 del cuadrado del radio de actividad molecular, el movimiento de una
 molécula de éter venía dado por tres ecuaciones, de las cuales la primera
-era\footnote{El original impreso dice aquí $\mu\Delta\xi$; es una errata
+era\footnote{El original imprime aquí $\mu\Delta\xi$; es una errata
 evidente por $2\mu\Delta\xi$, como muestran la ecuación del §33 y la forma
-$-2\mu(\Delta\xi-d\Theta/dx)$ que se deduce a continuación.}
+$-2\mu(\Delta\xi-d\Theta/dx)$ que se deduce a continuación.~(N.~del T.)}
 \[
 -\rho\frac{d^2\xi}{dt^2}=2\mu\Delta\xi+2\nu\frac{d\Theta}{dx}.
 \]
@@ -804,9 +806,9 @@ $t$ y de $z$:
 \frac{d^2\xi}{dz^2}=v^2\xi+\xi\frac{dv}{dz}.
 \]
 Llevando estos valores de las derivadas segundas a la ecuación del
-movimiento, tenemos\footnote{El original impreso dice $dv/dx$; es una
+movimiento, tenemos\footnote{El original imprime $dv/dx$; es una
 errata evidente por $dv/dz$, pues $v$ solo depende de $z$, como confirma el
-desarrollo del §135.}
+desarrollo del §135.~(N.~del T.)}
 \begin{equation}
 \frac{dv}{dz}+v^2+\rho\mu^2=0,
 \tag{1}
@@ -830,8 +832,8 @@ escribir el desarrollo de $v$,
 v=\mu v_1+\mu^2v_2+\mu^3v_3+\mu^4v_4+\cdots,
 \]
 siendo $v_1,v_2,v_3,\ldots$, como $v$, funciones periódicas de $z$; de ahí
-sacamos\footnote{El original impreso dice $\mu^3$ delante de
-$(2v_1v_4+2v_2v_3)$; es una errata evidente por $\mu^5$.}
+sacamos\footnote{El original imprime $\mu^3$ delante de
+$(2v_1v_4+2v_2v_3)$; es una errata evidente por $\mu^5$.~(N.~del T.)}
 \[
 v^2=\mu^2v_1^2+2\mu^3v_1v_2+\mu^4(v_2^2+2v_1v_3)
 +\mu^5(2v_1v_4+2v_2v_3)+\cdots,
@@ -966,11 +968,11 @@ fórmula que está suficientemente bien verificada por la experiencia.
 quisiéramos tratar el caso general en que $\rho$ es una función periódica
 de $x,y,z$, la integración de las ecuaciones del movimiento presentaría
 grandes dificultades. A propósito de la doble refracción, mostraremos cómo
-M.\,Sarrau logró hallar funciones que satisfacen aproximadamente las
+M.~Sarrau logró hallar funciones que satisfacen aproximadamente las
 ecuaciones del movimiento en el caso en que $\rho$ es una función
 periódica de las coordenadas. Estas funciones son de la
-forma\footnote{En el exponente de $\zeta$, el original impreso dice
-$\gamma y$; es una errata evidente por $\gamma z$.}
+forma\footnote{En el exponente de $\zeta$, el original imprime
+$\gamma y$; es una errata evidente por $\gamma z$.~(N.~del T.)}
 \[
 \xi=\mathrm Ae^{\frac{2i\pi}{\lambda}(\alpha x+\beta y+\gamma z-Vt)},\qquad
 \eta=\mathrm Be^{\frac{2i\pi}{\lambda}(\alpha x+\beta y+\gamma z-Vt)},\qquad
@@ -1006,7 +1008,7 @@ para el que $a=b=c=0$; este valor medio es, pues, igual a
 \[
 \mathrm R\sin d.
 \]
-La aplicación del método de M.\,Sarrau a la búsqueda de las integrales del
+La aplicación del método de M.~Sarrau a la búsqueda de las integrales del
 movimiento presentaría, en este caso, grandes dificultades. Se podrán, no
 obstante, hallar los valores medios de esas integrales, y ya hemos
 mostrado que son esos valores medios los únicos que intervienen en los
@@ -1085,11 +1087,11 @@ n=\mathrm A_0+\frac{\mathrm B_0}{\lambda^2}.
 Volvemos a encontrar así la expresión del índice de refracción que
 concuerda con los resultados de las experiencias.
 
-\section{Teoría de M. Boussinesq}
+\section{Teoría de M.~Boussinesq}
 
-\noindent\textbf{140. Teoría de M. Boussinesq.} — En lugar de suponer,
+\noindent\textbf{140. Teoría de M.~Boussinesq.} — En lugar de suponer,
 como Briot, que la densidad del éter contenido en un medio ponderable
-depende de la posición de la molécula considerada, M.\,Boussinesq supone
+depende de la posición de la molécula considerada, M.~Boussinesq supone
 esta densidad uniforme. Para tener en cuenta la acción de la materia sobre
 el éter y llegar a la explicación de la dispersión, introduce en las
 ecuaciones del movimiento de las moléculas de éter un término
@@ -1116,7 +1118,7 @@ Las fuerzas elásticas $\mathrm F_1$, debidas a la acción de la materia
 sobre sí misma, deben ser mucho más pequeñas que las que se ejercen entre
 las moléculas de éter, puesto que el sonido, que resulta de las
 vibraciones de la materia, se transmite con una velocidad
-incomparablemente más pequeña que la de la luz. M.\,Boussinesq admite, por
+incomparablemente más pequeña que la de la luz. M.~Boussinesq admite, por
 tanto, que se puede despreciar $\mathrm F_1$ frente a $\mathrm F$. La
 ecuación del movimiento de una molécula material se convierte entonces en
 \begin{equation}
@@ -1193,8 +1195,8 @@ n=\mathrm A_0+\frac{\mathrm C_0}{\lambda^2}.
 \]
 El índice de refracción depende, pues, de la longitud de onda.
 
-\noindent\textbf{142.} La teoría de M.\,Boussinesq\footnote{Bajo esta forma, la
-teoría de M.\,Boussinesq se aproxima a una teoría de Helmholtz, en la que
+\noindent\textbf{142.} La teoría de M.~Boussinesq\footnote{Bajo esta forma, la
+teoría de M.~Boussinesq se aproxima a una teoría de Helmholtz, en la que
 el sabio alemán da cuenta no solo de la dispersión ordinaria, sino también
 de la dispersión anómala, y que lamento no haber tenido tiempo de
 desarrollar en las lecciones de este semestre.} puede presentarse de otra
@@ -1276,7 +1278,7 @@ o, simplificando,
 Obtenemos así de nuevo, para la velocidad, una expresión que depende de
 $\alpha$ y, por consiguiente, de $\lambda$.
 
-\noindent\textbf{143.} Mostremos ahora cómo la teoría de M.\,Boussinesq da cuenta de la
+\noindent\textbf{143.} Mostremos ahora cómo la teoría de M.~Boussinesq da cuenta de la
 polarización rotatoria en los medios que, como las disoluciones de
 compuestos orgánicos, están desprovistos de centro de simetría, pero en
 los que una dirección cualquiera es un eje de simetría.

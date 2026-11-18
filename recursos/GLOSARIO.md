@@ -11,7 +11,7 @@ nota en contrario.
 | milieu élastique | medio elástico | |
 | mouvement vibratoire | movimiento vibratorio | |
 | fonction des forces | función de fuerzas | notación U en el original |
-| dilatation (linéaire/angulaire/cubique) | dilatación (lineal/angular/cúbica) | |
+| dilatation (linéaire/angulaire/cubique) | dilatación (lineal/angular/cúbica) | la dilatación cúbica es la función Θ, coeficiente de cambio relativo de volumen (cap. I, §21) |
 | force vive | fuerza viva | Σmv² en la terminología de 1889 — el DOBLE de la energía cinética moderna (no simplemente "energía cinética"); se traduce literal y se aclara en nota al pie la primera vez que aparece (cap. II, §45) |
 | onde plane | onda plana | |
 | rayon lumineux | rayo luminoso | |
@@ -20,7 +20,7 @@ nota en contrario.
 | polarisation rotatoire | polarización rotatoria | |
 | surface d'onde | superficie de onda | |
 | réflexion vitreuse / cristalline / métallique | reflexión vítrea / cristalina / metálica | |
-| aberration astronomique | aberración astronómica | |
+| aberration astronomique | aberración astronómica | ángulo entre la dirección real de un astro y la dirección aparente vista con un anteojo, debido al movimiento de la Tierra (cap. VIII, §231) |
 | hypothèse | hipótesis | |
 | on démontre / on obtient immédiatement / il vient | se demuestra / se obtiene inmediatamente / resulta | pasajes candidatos a extensión explícita tejida en prosa (sin caja, ver CLAUDE.md) |
 | fonction de forces U', U'' | función de fuerzas interior/exterior | U' fuerzas interiores, U'' fuerzas exteriores al sistema |
@@ -28,7 +28,6 @@ nota en contrario.
 | rayon d'activité moléculaire | radio de actividad molecular | distancia máxima a la que actúan las fuerzas intermoleculares (cap. I, §12) |
 | corps isotrope | cuerpo isótropo | medio homogéneo donde todas las direcciones son idénticas |
 | polynômes isotropes | polinomios isótropos | H, Θ², K — invariantes bajo cambio de ejes (cap. I, §19-23) |
-| dilatation cubique | dilatación cúbica | la función Θ, coeficiente de cambio relativo de volumen |
 | pression extérieure | presión exterior | fuerzas de superficie ejercidas por el medio exterior a un volumen R |
 | principe de d'Alembert | principio de d'Alembert | |
 | principe des vitesses virtuelles | principio de las velocidades virtuales | |
@@ -53,7 +52,8 @@ nota en contrario.
 | réflexion totale | reflexión total | |
 | angle limite | ángulo límite | ángulo de incidencia a partir del cual se produce reflexión total (hoy también "ángulo crítico") |
 | longueur d'onde | longitud de onda | $\lambda=V\tau$ (cap. II, §52) |
-| lumière naturelle | luz natural | luz no polarizada |
+| lumière naturelle | luz natural | luz no polarizada (cap. VII, §200) |
+| lumière non polarisée | luz no polarizada | así en el título del §57 (cap. II); se respeta la expresión del original en cada lugar |
 | écran | pantalla | obstáculo opaco que ocupa una porción de la esfera de onda (cap. IV, §83 en adelante) |
 | ombre géométrique | sombra geométrica | región sin iluminación según la óptica de rayos rectos, sin difracción (cap. IV, §89) |
 | pôle (d'un point) | polo (de un punto) | punto de la esfera $S$ más cercano al punto observado $P$; no confundir con polo en otro sentido (cap. IV, §93-94) |
@@ -65,7 +65,7 @@ nota en contrario.
 | ouverture semblable | abertura semejante | misma forma, escalada por una razón $K$ (cap. IV, §107) |
 | angle de déviation | ángulo de desviación | ángulo $\delta$ entre $OP$ y la normal al plano de la abertura (cap. IV, §107) |
 | maximum principal / secondaire | máximo principal / secundario | en redes y puntos equidistantes: el máximo de intensidad $\propto n^2$ frente a los máximos menores entre dos de ellos (cap. IV, §118) |
-| cristal hémiédrique | cristal hemiédrico | cristal sin centro de simetría (cap. V, §125, cuarzo) |
+| forme / milieu hémiédrique | forma / medio hemiédrico | adjetivo de forma o de medio sin centro de simetría (cap. V, §125, cuarzo; nota del §126). Distinto de «hémièdre» → «hemiedro» (ver más abajo): el original usa las dos palabras y se respeta cada una |
 | centre de symétrie / axe de symétrie | centro de simetría / eje de simetría | cap. V, §125 y §143; reaparecerá en el cap. VI (doble refracción) |
 | indice de réfraction | índice de refracción | inversamente proporcional a la velocidad de propagación $V$ (cap. V, §128) |
 | dissolution | disolución | cap. V, §127 (polarización rotatoria de disoluciones orgánicas) |
@@ -84,25 +84,63 @@ nota en contrario.
 | ombilic (de la surface d'onde) | ombligo (de la superficie de onda) | punto cónico de la superficie de onda, donde hay una infinidad de planos tangentes; 4 reales y 8 imaginarios (cap. VI, §187) |
 | plan tangent singulier | plano tangente singular | plano tangente a la superficie de onda en una infinidad de puntos distintos a la vez, en vez de uno solo (cap. VI, §187) |
 | réfraction conique (intérieure/extérieure) | refracción cónica (interior/exterior) | predicha por Hamilton (1832) a partir de los ombligos, confirmada experimentalmente por Lloyd; no se desarrolla en este libro (cap. VI, §187) |
-| milieu hémièdre / holoèdre | medio hemiedro / holoedro | hemiedro: cristal sin centro de simetría (cap. V, §125); holoedro: con los tres planos de simetría óptica. La doble refracción "ordinaria" se aplica a los holoedros; los hemiedros requieren la teoría del §190 en adelante |
+| cristal / milieu hémièdre / holoèdre | cristal / medio hemiedro / holoedro | hemiedro: cristal sin centro de simetría (cap. V, §125); holoedro: con los tres planos de simetría óptica. La doble refracción "ordinaria" se aplica a los holoedros; los hemiedros requieren la teoría del §190 en adelante |
 | loi de Brewster | ley de Brewster | si el rayo reflejado es perpendicular al refractado, el reflejado queda enteramente polarizado en el plano de incidencia (cap. VII, §205) |
 | théorème de Mac-Cullagh | teorema de Mac-Cullagh | aparece dos veces con contenido distinto: en la teoría de Fresnel (§204, relación entre vibración incidente/refractada) y en la de Neumann (§215, construcción geométrica OI/OR/OR'); se distinguen en las cajas con un paréntesis aclaratorio |
 | principe de continuité | principio de continuidad | exigencia de que ciertas componentes del desplazamiento (y a veces sus derivadas) sean funciones continuas al atravesar la superficie de separación; su alcance exacto varía según la teoría (Fresnel, Neumann, Cauchy) (cap. VII, §199 y ss.) |
-| couche de passage | capa de paso | región intermedia, de espesor finito pero mucho menor que una longitud de onda, donde la densidad del éter transita rápidamente de un valor constante a otro; reemplaza la idea de una discontinuidad brusca entre los dos medios (cap. VII, §208) |
+| couche de passage | capa de paso | región intermedia, de espesor finito pero mucho menor que una longitud de onda, donde la densidad del éter transita rápidamente de un valor constante a otro; reemplaza la idea de una discontinuidad brusca entre los dos medios (cap. VII, §208); reaparece en las Conclusiones (§242) como ejemplo de coeficientes variables en las ecuaciones del movimiento |
 | rayons longitudinaux évanescents | rayos longitudinales evanescentes | en la teoría de Cauchy de la reflexión, vibraciones longitudinales de velocidad de propagación imaginaria, que decaen exponencialmente y no transportan fuerza viva observable (cap. VII, §216) |
-| aberration astronomique | aberración astronómica | ángulo entre la dirección real de un astro y la dirección aparente vista con un anteojo, debido al movimiento de la Tierra (cap. VIII, §231) |
 | lunette | anteojo | instrumento óptico (telescopio refractor); se usa "anteojo" en vez de "telescopio" por fidelidad al registro de época (cap. VIII, §231) |
 | entraînement (partiel) de l'éther | arrastre (parcial) del éter | el éter contenido en un medio material en movimiento se mueve con él a una velocidad $v(1-1/n^2)$, fracción de la velocidad del medio (cap. VIII, §234) — no confundir con "entraînement (de la matière par l'éther)" del cap. V, que es la hipótesis inversa |
 | coefficient de Fresnel | coeficiente de arrastre de Fresnel | el factor $(1-1/n^2)$ en la velocidad de arrastre del éter (cap. VIII, §239) |
 | milieu en mouvement | medio en movimiento | medio material animado de una velocidad de traslación $v$, distinto del medio en reposo (cap. VIII, §236 en adelante) |
 | vitesse d'entraînement | velocidad de arrastre | |
-| couche de passage | capa de paso | ver también cap. VII, §208; reaparece en las Conclusiones (§242) como ejemplo de coeficientes variables en las ecuaciones del movimiento |
+
+## Términos y convenciones fijados en la revisión global (Etapa 3)
+
+| Francés | Español | Nota |
+|---|---|---|
+| expérience | experiencia | siempre «experiencia(s)», nunca «experimento(s)», también en los pies de figura |
+| M. X / MM. X et Y | M.~X / MM.~X y Y | tratamiento de época de los autores vivos en 1889 (M.~Sarrau, M.~Boussinesq, M.~Potier, M.~Gouy, MM.~Michelson y Morley); se escribe siempre con espacio irrompible `M.~` en LaTeX, nunca «el señor X» ni `M.\,X` |
+| Mac-Cullagh / Mac Cullagh | Mac-Cullagh | el original alterna las dos grafías; se fija la forma con guion |
+| fonction des forces | función de fuerzas | nunca «función de las fuerzas» |
+| au nº N / (N) / au § N | (§N) / en el §N | el original alterna «nº», «§» y el número entre paréntesis; se unifica siempre a «§N» |
+| 1°, 2°, 3° (enumeraciones) | 1.º, 2.º, 3.º | ordinal español, `1.\textsuperscript{o}` en LaTeX (también en `\item[...]` dentro de cajas); `^\circ` queda reservado a los ángulos en grados |
 
 ## Convenciones de notación matemática
 
 - Se conservan los símbolos originales de Poincaré (ξ, η, ζ para
   desplazamientos; U para función de fuerzas; ρ para densidad) salvo
   colisión de notación entre capítulos, que se documenta aquí.
-- Los números de ecuación del original se mantienen como referencia entre
-  paréntesis junto a la numeración nueva del libro guía, p. ej. `(I.4)`
-  para la ecuación 4 del Capítulo I, con nota `[orig. (4)]` si coincide.
+- Las cantidades introducidas en el Capítulo I se componen siempre en
+  redonda, como en el original y en ese capítulo, cuando reaparecen en
+  capítulos posteriores: función de fuerzas $\mathrm{U}$ (y
+  $\mathrm{U}_2$, $\mathrm{U}''_2$), $\mathrm{W}$, $\mathrm{W}_1$,
+  $\mathrm{W}_2$, el operador $\mathrm{D}$ ($\mathrm{D}x$, $\mathrm{D}\xi$),
+  los polinomios isótropos $\mathrm{K}$, $\mathrm{H}$ y la presión
+  $\mathrm{P}_x$. (Θ, λ, μ, ν, griegas, van como siempre.)
+- Las referencias a párrafos se escriben siempre «(§N)», nunca «(N)» a
+  secas, para no confundirlas con números de ecuación.
+- Los números de ecuación son exactamente los de Poincaré, y se muestran
+  sin prefijo de capítulo: «(5)», nunca «(7.5)». Se fijan con `\tag{N}` o
+  con el contador automático reiniciado (`\setcounter{equation}{..}`) en
+  cada lugar donde el original reinicia su numeración; `\theequation` está
+  redefinido en `preambulo/estilo.tex` para no anteponer el capítulo.
+
+## Convenciones de las notas al pie del traductor
+
+- **Errata del original corregida en el texto**: «El original imprime X;
+  es una errata evidente por Y[, pues/como ...]». Si lo que se cita son
+  palabras francesas: «El original dice «...»; ...». El texto principal
+  lleva siempre la forma corregida (nunca se deja la errata con un «así en
+  el original»).
+- **Corrección tomada de la fe de erratas del propio volumen de 1889**:
+  «Corrección indicada en la fe de erratas del propio volumen original
+  (p.~N, línea~M), que pide leer ...».
+- **Referencia cruzada errónea del original**: se corrige el número en el
+  texto y se anota «El original remite aquí al §N; [lo citado] se
+  encuentra en el §M.».
+- **Reinicio o salto de la numeración de ecuaciones**: se explica el
+  reinicio o el salto y se cierra con «Conservamos la numeración de
+  Poincaré.».
+- Voz: primera persona del plural («conservamos», «corregimos»).

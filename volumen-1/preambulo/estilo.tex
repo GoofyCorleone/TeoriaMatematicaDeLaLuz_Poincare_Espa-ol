@@ -49,6 +49,9 @@
   linkcolor=azulpoincare,
   citecolor=rojopoincare,
   urlcolor=azulpoincare,
+  % Poincaré reinicia su numeración de ecuaciones muchas veces por
+  % capítulo; sin esto, hyperref genera anclas duplicadas (equation.N.M).
+  hypertexnames=false,
   pdftitle={Teoría Matemática de la Luz — Henri Poincaré},
 }
 
@@ -57,6 +60,11 @@
 % original ("CHAPITRE N" / título centrado, filete, blanco)
 % pero en español y con la paleta azul/rojo
 % ============================================================
+% El cuerpo del texto cita los capítulos en números romanos ("Capítulo
+% III", como en el original francés "CHAPITRE III"); la portadilla debe
+% coincidir con esa misma convención.
+\renewcommand{\thechapter}{\Roman{chapter}}
+
 \titleformat{\chapter}[display]
   {\normalfont\centering}
   {\color{rojopoincare}\Large\scshape Capítulo \thechapter}
@@ -65,6 +73,41 @@
 \titlespacing*{\chapter}{0pt}{80pt}{40pt}
 
 \renewcommand{\thesection}{\thechapter.\arabic{section}}
+
+% Los números de capítulo en romanos ("VIII.8.8") son más anchos que en
+% arábigos; se ensancha la columna de numeración del índice general para
+% que quepan sin desbordar.
+\makeatletter
+\renewcommand{\l@section}{\@dottedtocline{1}{1.5em}{3.3em}}
+\renewcommand{\l@subsection}{\@dottedtocline{2}{4.0em}{4.2em}}
+% Índice de figuras: "VIII.6." es más ancho que "6.".
+\renewcommand{\l@figure}{\@dottedtocline{1}{1em}{3.5em}}
+% Índice general, entradas de capítulo: ensanchar la sangría de
+% continuación para que quepa "VIII. " cuando el título se parte en
+% más de una línea.
+\renewcommand{\l@chapter}[2]{%
+  \ifnum \c@tocdepth >\m@ne
+    \addpenalty{-\@highpenalty}%
+    \vskip 1.0em \@plus\p@
+    \setlength\@tempdima{2.8em}%
+    \begingroup
+      \parindent \z@ \rightskip \@pnumwidth
+      \parfillskip -\@pnumwidth
+      \leavevmode \bfseries
+      \advance\leftskip\@tempdima
+      \hskip -\leftskip
+      #1\nobreak\hfil
+      \nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+      \penalty\@highpenalty
+    \endgroup
+  \fi}
+\makeatother
+
+% Numeración de ecuaciones: se muestra solo el número de Poincaré, "(5)",
+% sin prefijo de capítulo, tanto si se fija con \tag{N} como si se deja
+% al contador automático (con \setcounter{equation}{..} en cada reinicio
+% del original). Así todos los capítulos muestran el mismo formato.
+\renewcommand{\theequation}{\arabic{equation}}
 
 % ============================================================
 % Cajas de estilo "libro guía"
@@ -136,6 +179,15 @@
   \tag{\ecnumA\ \text{\footnotesize[\ecnumB]}}%
   \end{equation}%
 }
+
+% ---------- Pie de página no justificado verticalmente ----------
+% Con \flushbottom (predeterminado en twoside), las páginas que preceden a
+% una nota al pie larga, una figura o una caja no divisible se estiran y
+% dejan huecos grandes entre ecuaciones (avisos "Underfull \vbox"). Con
+% \raggedbottom el texto conserva su espaciado natural y el sobrante queda
+% al pie de la página. Para volver al comportamiento anterior, borrar esta
+% línea.
+\raggedbottom
 
 % ---------- Encabezado de página (estilo "guía de lectura") ----------
 \setlength{\headheight}{35pt}

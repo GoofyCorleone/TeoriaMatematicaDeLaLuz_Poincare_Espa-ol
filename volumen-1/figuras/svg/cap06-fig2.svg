@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="260" viewBox="0 0 420 260">
+<!--
+  Figura 20 del original (cap. VI, §180): onda plana PP' en un medio
+  anisótropo, su posición QQ' al cabo de la unidad de tiempo, y las ondas
+  elementales S, S' de los puntos O, O' con su plano tangente común Q1Q1'.
+  Siguiendo la fe de erratas del volumen original, la recta superior se
+  rotula Q1Q1' (el original imprimía QQ' en las dos rectas superiores).
+  Elipses: rx=35, ry=70, giradas 25°; semialtura = sqrt(35²sin²25°+70²cos²25°)
+  = 65.14, de modo que son tangentes a la recta y = 150 - 65.14 = 84.86.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="172" viewBox="0 62 420 172">
   <defs>
     <style>
       .plano { stroke:#14315D; stroke-width:2; }
@@ -9,27 +18,33 @@
       .etiquetaRoja { font-family:'CMU Serif','Georgia',serif; font-size:15px; fill:#9E1B32; font-style:italic; }
     </style>
   </defs>
-  <rect width="420" height="260" fill="white"/>
+  <rect x="0" y="62" width="420" height="172" fill="white"/>
 
-  <!-- plano de onda PP' -->
-  <line x1="110" y1="30" x2="110" y2="230" class="plano"/>
-  <text x="95" y="24" class="etiqueta">P</text>
-  <text x="95" y="246" class="etiqueta">P'</text>
+  <!-- plano tangente común Q1Q1' -->
+  <line x1="40" y1="84.86" x2="380" y2="84.86" class="plano"/>
+  <text x="14" y="90" class="etiqueta">Q<tspan font-size="11" dy="4">1</tspan></text>
+  <text x="386" y="90" class="etiqueta">Q<tspan font-size="11" dy="4">1</tspan><tspan dy="-4">'</tspan></text>
 
-  <!-- plano de onda QQ' -->
-  <line x1="310" y1="30" x2="310" y2="230" class="plano"/>
-  <text x="300" y="24" class="etiqueta">Q</text>
-  <text x="300" y="246" class="etiqueta">Q'</text>
+  <!-- posición QQ' de la onda plana al cabo de la unidad de tiempo -->
+  <line x1="40" y1="112" x2="380" y2="112" class="plano"/>
+  <text x="18" y="117" class="etiqueta">Q</text>
+  <text x="386" y="117" class="etiqueta">Q'</text>
+
+  <!-- onda plana PP' -->
+  <line x1="40" y1="150" x2="380" y2="150" class="plano"/>
+  <text x="18" y="155" class="etiqueta">P</text>
+  <text x="386" y="155" class="etiqueta">P'</text>
+
+  <!-- ondas elementales S, S' de los puntos O, O' -->
+  <ellipse cx="130" cy="150" rx="35" ry="70" transform="rotate(25 130 150)" class="onda"/>
+  <ellipse cx="290" cy="150" rx="35" ry="70" transform="rotate(25 290 150)" class="onda"/>
 
   <!-- puntos O, O' sobre PP' -->
-  <circle cx="110" cy="100" r="3.5" class="puntoAzul"/>
-  <text x="90" y="95" class="etiqueta">O</text>
-  <circle cx="110" cy="170" r="3.5" class="puntoAzul"/>
-  <text x="90" y="185" class="etiqueta">O'</text>
+  <circle cx="130" cy="150" r="3.5" class="puntoAzul"/>
+  <text x="116" y="170" class="etiqueta">O</text>
+  <circle cx="290" cy="150" r="3.5" class="puntoAzul"/>
+  <text x="276" y="170" class="etiqueta">O'</text>
 
-  <!-- ondas elementales S, S' tangentes a QQ' -->
-  <circle cx="110" cy="100" r="100" class="onda"/>
-  <circle cx="110" cy="170" r="100" class="onda"/>
-  <text x="330" y="96" class="etiquetaRoja">S</text>
-  <text x="330" y="176" class="etiquetaRoja">S'</text>
+  <text x="166" y="132" class="etiquetaRoja">S</text>
+  <text x="326" y="132" class="etiquetaRoja">S'</text>
 </svg>
