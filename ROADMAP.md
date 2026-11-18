@@ -106,14 +106,22 @@ El **Capítulo VI — Doble refracción** es el más extenso (contiene las
 subteorías de Fresnel, Cauchy, Neumann, Sarrau, Boussinesq y la superficie de
 onda) y se trabaja en sub-bloques siguiendo esa misma subdivisión.
 
-### Etapa 3 — Integración y maquetación final del volumen
-- Ensamblaje completo: portada textual, prólogo del traductor (nuevo),
+### Etapa 3 — Integración y maquetación final del volumen (en curso)
+- ✅ Ensamblaje completo: portada textual, prólogo del traductor (nuevo),
   prefacio original traducido, introducción, los 8 capítulos, conclusiones,
   índice de figuras, glosario final.
-- Revisión tipográfica global (Sonnet) y revisión técnica global comparando
-  contra el original, capítulo por capítulo (Opus).
-- Validación de numeración de ecuaciones, referencias cruzadas y consistencia
-  de notación en todo el volumen.
+- ✅ Numeración de capítulos unificada en números romanos (portadilla e
+  índice coinciden con el cuerpo del texto).
+- ✅ Revisión global de consistencia de notación, terminología, estilo de
+  cajas/notas y referencias cruzadas entre capítulos (Opus) — encontró y
+  tradujo dos párrafos que habían quedado sin traducir (§144 del Cap. VI,
+  §198 del Cap. VII), corrigió una figura mal dibujada, y confirmó tres
+  referencias cruzadas erróneas que vienen así del propio original de 1889
+  (documentadas con nota, no "corregidas").
+- ✅ Notas al pie marcadas como propias del traductor ("(N. del T.)") para
+  distinguirlas de las notas originales de Poincaré.
+- ⬜ Revisión tipográfica final de lectura corrida (de principio a fin,
+  como lector, no capítulo por capítulo).
 
 ### Etapa 4 — Publicación
 - PDF final del Volumen I.
@@ -122,7 +130,7 @@ onda) y se trabaja en sub-bloques siguiendo esa misma subdivisión.
 
 ## Capítulos del Volumen I (confirmados contra la tabla de materias original)
 
-0. Prólogo del traductor (nuevo) · Prefacio · Introducción
+0. Prólogo del traductor (nuevo) · Prefacio · Introducción — ✅ completo
 1. Estudio de los pequeños movimientos en un medio elástico
 2. Propagación de los movimientos vibratorios. Interferencia *(título exacto
    a confirmar en la Etapa 0 de extracción)*
