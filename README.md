@@ -35,9 +35,8 @@ notación del original pero:
 
 ## Estado del proyecto
 
-🚧 En progreso — Volumen I. El Volumen II no se inicia hasta terminar el
-Volumen I. El plan de trabajo completo, capítulo por capítulo, está en
-[`ROADMAP.md`](ROADMAP.md).
+✅ **Volumen I completo.** El Volumen II todavía no se inicia. El plan de
+trabajo completo, capítulo por capítulo, está en [`ROADMAP.md`](ROADMAP.md).
 
 **Avance actual:**
 
@@ -65,19 +64,22 @@ Volumen I. El plan de trabajo completo, capítulo por capítulo, está en
     Fresnel).
   - Conclusiones (unidad propia, sin número de capítulo, como en el
     original).
-- ⏳ **Etapa 3 (en curso)** — integración y maquetación final del Volumen I:
-  - ✅ Frente de materia: prólogo del traductor, prefacio e introducción
+- ✅ **Etapa 3 — completa.** Integración y maquetación final del Volumen I:
+  - Frente de materia: prólogo del traductor, prefacio e introducción
     originales de Poincaré, numeración de capítulos unificada en números
     romanos en toda la portadilla y el índice.
-  - ✅ Revisión global de consistencia entre los 8 capítulos (terminología,
+  - Revisión global de consistencia entre los 8 capítulos (terminología,
     estilo de cajas y notas, referencias cruzadas) — encontró dos párrafos
     que habían quedado sin traducir y los tradujo, corrigió una figura mal
     dibujada, y confirmó tres referencias cruzadas que ya vienen erróneas
     en el propio original de 1889.
-  - ✅ Las notas al pie distinguen con "(N. del T.)" las que son nuestras
-    de las que son del propio Poincaré.
-  - ⬜ Revisión tipográfica final de lectura corrida.
-- ⬜ **Etapa 4** — publicación del Volumen I.
+  - Las notas al pie distinguen con "(N. del T.)" las que son nuestras de
+    las que son del propio Poincaré.
+  - Revisión tipográfica final de lectura corrida, de principio a fin:
+    sin hallazgos.
+- ✅ **Etapa 4 — Volumen I publicado en este repositorio.** 353 páginas,
+  cero avisos de diseño al compilar, disponible en
+  [`volumen-1/main.pdf`](volumen-1/main.pdf).
 - ⬜ **Volumen II** — sin iniciar; plan de alto nivel en
   [`volumen-2/PLAN.md`](volumen-2/PLAN.md).
 

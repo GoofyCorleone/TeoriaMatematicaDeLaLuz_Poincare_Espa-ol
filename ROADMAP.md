@@ -106,7 +106,7 @@ El **Capítulo VI — Doble refracción** es el más extenso (contiene las
 subteorías de Fresnel, Cauchy, Neumann, Sarrau, Boussinesq y la superficie de
 onda) y se trabaja en sub-bloques siguiendo esa misma subdivisión.
 
-### Etapa 3 — Integración y maquetación final del volumen (en curso)
+### Etapa 3 — Integración y maquetación final del volumen — ✅ completa
 - ✅ Ensamblaje completo: portada textual, prólogo del traductor (nuevo),
   prefacio original traducido, introducción, los 8 capítulos, conclusiones,
   índice de figuras, glosario final.
@@ -120,8 +120,10 @@ onda) y se trabaja en sub-bloques siguiendo esa misma subdivisión.
   (documentadas con nota, no "corregidas").
 - ✅ Notas al pie marcadas como propias del traductor ("(N. del T.)") para
   distinguirlas de las notas originales de Poincaré.
-- ⬜ Revisión tipográfica final de lectura corrida (de principio a fin,
-  como lector, no capítulo por capítulo).
+- ✅ Revisión tipográfica final de lectura corrida (de principio a fin,
+  como lector, no capítulo por capítulo) — sin hallazgos: ningún artefacto
+  de texto, ningún salto de página torpe, ninguna caja mal diagramada en
+  las 353 páginas.
 
 ### Etapa 4 — Publicación
 - PDF final del Volumen I.
